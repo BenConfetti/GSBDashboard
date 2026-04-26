@@ -3,6 +3,7 @@ from __future__ import annotations
 import sqlite3
 import random
 from pathlib import Path
+import urllib.request
 
 import altair as alt
 import matplotlib.pyplot as plt
@@ -12,7 +13,8 @@ import streamlit as st
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-DEFAULT_DB_PATH = BASE_DIR / "database" / "fantrax_deploy.db"
+DEFAULT_DB_PATH = BASE_DIR / "database" / "fantrax_v2_runtime.db"
+DEFAULT_DB_URL = "https://github.com/BenConfetti/GSBDashboard/releases/download/v1.0/fantrax_v2_runtime.db"
 IGNORED_STATS = {"BR", "INT", "A", "GA"}
 DISPLAY_LABELS = {
     "player_name": "Player",
@@ -805,6 +807,14 @@ def navigate_to_record(section: str, title: str, detail: str) -> None:
         "detail": detail,
     }
     navigate_to("Records")
+
+
+def ensure_default_database() -> Path:
+    if DEFAULT_DB_PATH.exists():
+        return DEFAULT_DB_PATH
+    DEFAULT_DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    urllib.request.urlretrieve(DEFAULT_DB_URL, DEFAULT_DB_PATH)
+    return DEFAULT_DB_PATH
 
 
 def render_header() -> None:
@@ -4039,8 +4049,16 @@ def main() -> None:
     )
     inject_css()
 
+    if "default_db_path" not in st.session_state:
+        try:
+            with st.spinner("Database voorbereiden..."):
+                st.session_state["default_db_path"] = str(ensure_default_database())
+        except Exception as exc:
+            st.session_state["default_db_path"] = str(DEFAULT_DB_PATH)
+            st.error(f"Database kon niet automatisch worden gedownload: {exc}")
+
     st.sidebar.title("Fantrax Dashboard")
-    db_path = st.sidebar.text_input("SQLite database", str(DEFAULT_DB_PATH))
+    db_path = st.sidebar.text_input("SQLite database", st.session_state["default_db_path"])
     page = st.sidebar.radio(
         "View",
         [
