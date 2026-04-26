@@ -800,7 +800,7 @@ def metric_card(label: str, value: str) -> None:
 
 
 def navigate_to(page_name: str) -> None:
-    st.session_state["page_radio"] = page_name
+    st.session_state["pending_page_radio"] = page_name
     st.rerun()
 
 
@@ -4063,6 +4063,9 @@ def main() -> None:
             st.session_state["default_db_path"] = str(DEFAULT_DB_PATH)
             st.error(f"Database kon niet automatisch worden gedownload: {exc}")
 
+    if "pending_page_radio" in st.session_state:
+        st.session_state["page_radio"] = st.session_state.pop("pending_page_radio")
+
     st.sidebar.title("Fantrax Dashboard")
     db_path = st.sidebar.text_input("SQLite database", st.session_state["default_db_path"])
     page = st.sidebar.radio(
@@ -4144,4 +4147,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as exc:
+        st.error("De app crashte tijdens het opstarten of renderen.")
+        st.exception(exc)
+        raise
