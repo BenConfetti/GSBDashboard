@@ -4152,4 +4152,4 @@ if __name__ == "__main__":
     except Exception as exc:
         st.error("De app crashte tijdens het opstarten of renderen.")
         st.exception(exc)
-        raise
+        st.stop()
