@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import gzip
 import sqlite3
 import random
+import shutil
 from pathlib import Path
 import urllib.request
 
@@ -13,8 +15,10 @@ import streamlit as st
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-DEFAULT_DB_PATH = BASE_DIR / "database" / "fantrax_v2_runtime.db"
-DEFAULT_DB_URL = "https://github.com/BenConfetti/GSBDashboard/releases/download/v1.0/fantrax_v2_runtime.db"
+RUNTIME_DB_DIR = Path("/tmp/fantrax_dashboard") if Path("/tmp").exists() else (BASE_DIR / "database")
+DEFAULT_DB_PATH = RUNTIME_DB_DIR / "fantrax_v2_runtime.db"
+DEFAULT_DB_GZ_PATH = RUNTIME_DB_DIR / "fantrax_v2_runtime.db.gz"
+DEFAULT_DB_URL = "https://github.com/BenConfetti/GSBDashboard/releases/download/v1.0/fantrax_v2_runtime.db.gz"
 IGNORED_STATS = {"BR", "INT", "A", "GA"}
 DISPLAY_LABELS = {
     "player_name": "Player",
@@ -812,8 +816,10 @@ def navigate_to_record(section: str, title: str, detail: str) -> None:
 def ensure_default_database() -> Path:
     if DEFAULT_DB_PATH.exists():
         return DEFAULT_DB_PATH
-    DEFAULT_DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    urllib.request.urlretrieve(DEFAULT_DB_URL, DEFAULT_DB_PATH)
+    RUNTIME_DB_DIR.mkdir(parents=True, exist_ok=True)
+    urllib.request.urlretrieve(DEFAULT_DB_URL, DEFAULT_DB_GZ_PATH)
+    with gzip.open(DEFAULT_DB_GZ_PATH, "rb") as compressed, DEFAULT_DB_PATH.open("wb") as extracted:
+        shutil.copyfileobj(compressed, extracted)
     return DEFAULT_DB_PATH
 
 
