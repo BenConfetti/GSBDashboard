@@ -1,0 +1,46 @@
+{
+  "request_payload": {
+    "msgs": [
+      {
+        "method": "getStandings",
+        "data": {
+          "leagueId": "4w8wz9damde4avqn",
+          "timeframeType": "BY_PERIOD"
+        }
+      }
+    ],
+    "uiv": 3,
+    "refUrl": "https://www.fantrax.com/fantasy/league/4w8wz9damde4avqn/standings;timeframeType=BY_PERIOD;period=1;timeStartType=PERIOD_ONLY",
+    "dt": 2,
+    "at": 0,
+    "tz": "Europe/Amsterdam",
+    "v": "181.3.4"
+  },
+  "response": {
+    "data": {
+      "sDate": 1777101868709,
+      "adrt": 35
+    },
+    "roles": [
+      "02"
+    ],
+    "pageError": {
+      "onScreen": false,
+      "code": "INVALID_REQUEST",
+      "text": "We're sorry, but we cannot process that request. Please navigate back to this screen from another screen and try the action again. If you are still not able to do what you are intending, or you got here from a link or button on Fantrax, please help us correct the issue by contacting support and letting us know steps to reproduce this.",
+      "title": "Invalid Request",
+      "forceReload": false
+    },
+    "responses": [
+      {
+        "pageError": {
+          "onScreen": false,
+          "code": "INVALID_REQUEST",
+          "text": "We're sorry, but we cannot process that request. Please navigate back to this screen from another screen and try the action again. If you are still not able to do what you are intending, or you got here from a link or button on Fantrax, please help us correct the issue by contacting support and letting us know steps to reproduce this.",
+          "title": "Invalid Request",
+          "forceReload": false
+        }
+      }
+    ]
+  }
+}

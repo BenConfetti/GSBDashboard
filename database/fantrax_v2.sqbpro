@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="fantrax_v2.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="23692"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="transaction_event" custom_title="0" dock_id="1" table="4,17:maintransaction_event"/><dock_state state="000000ff00000000fd0000000100000002000004c900000381fc0100000001fb000000160064006f0063006b00420072006f00770073006500310100000000000004c9000001fe00ffffff000002be0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="fantasy_team" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="156"/><column index="2" value="156"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="player" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="62"/><column index="2" value="210"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="player_gameweek" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="62"/><column index="2" value="78"/><column index="3" value="69"/><column index="4" value="166"/><column index="5" value="53"/><column index="6" value="78"/><column index="7" value="46"/><column index="8" value="88"/><column index="10" value="148"/><column index="11" value="29"/><column index="12" value="72"/><column index="13" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="stat_weight" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="56"/><column index="2" value="93"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="transaction_event" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="126"/><column index="2" value="78"/><column index="3" value="69"/><column index="4" value="210"/><column index="5" value="166"/><column index="6" value="53"/><column index="7" value="102"/><column index="8" value="156"/><column index="9" value="75"/><column index="10" value="86"/><column index="11" value="202"/><column index="12" value="150"/><column index="13" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="v_all_time_team_standings_regular_season" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="163"/><column index="2" value="99"/><column index="3" value="103"/><column index="4" value="46"/><column index="5" value="90"/><column index="6" value="98"/><column index="7" value="97"/><column index="8" value="154"/><column index="9" value="179"/><column index="10" value="122"/><column index="11" value="130"/><column index="12" value="117"/><column index="13" value="72"/><column index="14" value="115"/><column index="15" value="48"/><column index="16" value="48"/><column index="17" value="58"/><column index="18" value="55"/><column index="19" value="62"/><column index="20" value="60"/><column index="21" value="62"/><column index="22" value="59"/><column index="23" value="64"/><column index="24" value="67"/><column index="25" value="54"/><column index="26" value="56"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1*">WITH ranked AS (
+    SELECT
+        pg.status_snapshot AS fantrax_team,
+        p.player_name,
+        COUNT(*) AS gameweeks_played,
+        SUM(COALESCE(pg.games_played, 0)) AS total_gp,
+        ROW_NUMBER() OVER (
+            PARTITION BY pg.status_snapshot
+            ORDER BY COUNT(*) DESC, SUM(COALESCE(pg.games_played, 0)) DESC, p.player_name
+        ) AS rn
+    FROM player_gameweek pg
+    JOIN player p
+        ON p.player_id = pg.player_id
+    WHERE pg.status_snapshot IS NOT NULL
+      AND pg.status_snapshot NOT IN ('FA', 'None/Bye', '')
+      AND COALESCE(pg.games_played, 0) &gt; 0
+    GROUP BY
+        pg.status_snapshot,
+        pg.player_id,
+        p.player_name
+)
+SELECT
+    fantrax_team,
+    rn AS rank_within_team,
+    player_name,
+    gameweeks_played,
+    total_gp
+FROM ranked
+WHERE rn &lt;= 3
+ORDER BY fantrax_team, rn;
+</sql><sql name="SQL 2*">SELECT
+    p.player_name,
+    COUNT(*) AS gameweeks_played,
+    SUM(COALESCE(pg.games_played, 0)) AS total_gp
+FROM player_gameweek pg
+JOIN player p
+    ON p.player_id = pg.player_id
+WHERE pg.status_snapshot = 'NIM'
+  AND COALESCE(pg.games_played, 0) &gt; 0
+GROUP BY
+    pg.player_id,
+    p.player_name
+ORDER BY
+    COUNT(*) DESC,
+    SUM(COALESCE(pg.games_played, 0)) DESC,
+    p.player_name
+LIMIT 25;
+
+</sql><sql name="SQL 3*">WITH player_team_counts AS (
+    SELECT
+        pg.player_id,
+        p.player_name,
+        pg.status_snapshot AS fantrax_team,
+        COUNT(*) AS gameweeks_for_team
+    FROM player_gameweek pg
+    JOIN player p
+        ON p.player_id = pg.player_id
+    WHERE pg.status_snapshot IS NOT NULL
+      AND pg.status_snapshot NOT IN ('FA', 'None/Bye', '')
+      AND COALESCE(pg.games_played, 0) &gt; 0
+    GROUP BY
+        pg.player_id,
+        p.player_name,
+        pg.status_snapshot
+),
+player_summary AS (
+    SELECT
+        player_id,
+        player_name,
+        COUNT(*) AS fantrax_teams_played_for,
+        GROUP_CONCAT(
+            fantrax_team || ': ' || gameweeks_for_team || ' GW',
+            ' | '
+        ) AS teams_breakdown
+    FROM player_team_counts
+    GROUP BY
+        player_id,
+        player_name
+)
+SELECT
+    player_name,
+    fantrax_teams_played_for,
+    teams_breakdown
+FROM player_summary
+ORDER BY
+    fantrax_teams_played_for DESC,
+    player_name
+LIMIT 10;
+</sql><sql name="SQL 4*">SELECT
+    ranked.stat_key,
+    ranked.rank_within_stat,
+    ranked.player_name,
+    ranked.stat_value,
+    ranked.season_slug,
+    ranked.gameweek,
+    ranked.premier_league_team_code,
+    ranked.fantrax_team
+FROM (
+    SELECT
+        pgs.stat_key,
+        p.player_name,
+        pgs.stat_value,
+        pg.season_slug,
+        pg.gameweek,
+        pg.premier_league_team_code,
+        pg.status_snapshot AS fantrax_team,
+        ROW_NUMBER() OVER (
+            PARTITION BY pgs.stat_key
+            ORDER BY pgs.stat_value DESC, p.player_name, pg.season_slug, pg.gameweek
+        ) AS rank_within_stat
+    FROM player_gameweek_stat pgs
+    JOIN player_gameweek pg
+        ON pg.player_id = pgs.player_id
+       AND pg.season_slug = pgs.season_slug
+       AND pg.gameweek = pgs.gameweek
+    JOIN player p
+        ON p.player_id = pgs.player_id
+    WHERE pgs.stat_value IS NOT NULL
+) ranked
+WHERE ranked.rank_within_stat &lt;= 3
+ORDER BY ranked.stat_key, ranked.rank_within_stat;
+</sql><sql name="SQL 5*">SELECT
+    COALESCE(pg.status_snapshot, 'UNKNOWN') AS fantrax_team,
+    COUNT(*) AS gameweeks_count
+FROM player_gameweek pg
+JOIN player p
+    ON p.player_id = pg.player_id
+WHERE p.player_name = 'Casemiro'
+GROUP BY COALESCE(pg.status_snapshot, 'UNKNOWN')
+ORDER BY
+    CASE WHEN COALESCE(pg.status_snapshot, 'UNKNOWN') = 'FA' THEN 1 ELSE 0 END,
+    gameweeks_count DESC,
+    fantrax_team;
+</sql><sql name="SQL 6*">SELECT * FROM player_gameweek WHERE player_id = '*05n07*'</sql><current_tab id="4"/></tab_sql></sqlb_project>

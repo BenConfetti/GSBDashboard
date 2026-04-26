@@ -1,0 +1,408 @@
+[
+  {
+    "season_slug": "2019-2020",
+    "source_file": "downloaddata\\players1920.csv",
+    "row_count": 575,
+    "r_squared": 0.9072,
+    "mae": 6.9568,
+    "intercept": 11.422251,
+    "coefficients": {
+      "G": 1.124802,
+      "A": 1.00286,
+      "SOT": 0.659414,
+      "TkW": 0.373337,
+      "DPt2": -0.451227,
+      "AP": 0.006715,
+      "Int": 0.213441,
+      "BR": 0.094819,
+      "CSD": 1.348582
+    },
+    "top_coefficients": [
+      {
+        "stat_key": "CSD",
+        "coefficient": 1.348582
+      },
+      {
+        "stat_key": "G",
+        "coefficient": 1.124802
+      },
+      {
+        "stat_key": "A",
+        "coefficient": 1.00286
+      },
+      {
+        "stat_key": "SOT",
+        "coefficient": 0.659414
+      },
+      {
+        "stat_key": "DPt2",
+        "coefficient": -0.451227
+      },
+      {
+        "stat_key": "TkW",
+        "coefficient": 0.373337
+      },
+      {
+        "stat_key": "Int",
+        "coefficient": 0.213441
+      },
+      {
+        "stat_key": "BR",
+        "coefficient": 0.094819
+      },
+      {
+        "stat_key": "AP",
+        "coefficient": 0.006715
+      }
+    ],
+    "formula": "11.4223 + 1.3486*CSD + 1.1248*G + 1.0029*A + 0.6594*SOT - 0.4512*DPt2 + 0.3733*TkW + 0.2134*Int + 0.0948*BR + 0.0067*AP"
+  },
+  {
+    "season_slug": "2020-2021",
+    "source_file": "downloaddata\\players2021.csv",
+    "row_count": 569,
+    "r_squared": 0.9158,
+    "mae": 6.2315,
+    "intercept": 11.794262,
+    "coefficients": {
+      "G": 1.167802,
+      "KP": 0.243937,
+      "SOT": 0.611533,
+      "TkW": 0.395426,
+      "DPt2": -0.569031,
+      "AP": 0.009048,
+      "Int": 0.285055,
+      "AER": 0.117038,
+      "CSD": 1.142055
+    },
+    "top_coefficients": [
+      {
+        "stat_key": "G",
+        "coefficient": 1.167802
+      },
+      {
+        "stat_key": "CSD",
+        "coefficient": 1.142055
+      },
+      {
+        "stat_key": "SOT",
+        "coefficient": 0.611533
+      },
+      {
+        "stat_key": "DPt2",
+        "coefficient": -0.569031
+      },
+      {
+        "stat_key": "TkW",
+        "coefficient": 0.395426
+      },
+      {
+        "stat_key": "Int",
+        "coefficient": 0.285055
+      },
+      {
+        "stat_key": "KP",
+        "coefficient": 0.243937
+      },
+      {
+        "stat_key": "AER",
+        "coefficient": 0.117038
+      },
+      {
+        "stat_key": "AP",
+        "coefficient": 0.009048
+      }
+    ],
+    "formula": "11.7943 + 1.1678*G + 1.1421*CSD + 0.6115*SOT - 0.5690*DPt2 + 0.3954*TkW + 0.2851*Int + 0.2439*KP + 0.1170*AER + 0.0090*AP"
+  },
+  {
+    "season_slug": "2021-2022",
+    "source_file": "downloaddata\\players2122.csv",
+    "row_count": 673,
+    "r_squared": 0.8931,
+    "mae": 7.2193,
+    "intercept": 10.666587,
+    "coefficients": {
+      "G": 1.216294,
+      "A": 1.479323,
+      "SOT": 0.501914,
+      "TkW": 0.456432,
+      "DPt2": -0.408701,
+      "AP": 0.009047,
+      "CoSF": 0.175633,
+      "AER": 0.159683,
+      "CSD": 0.755484
+    },
+    "top_coefficients": [
+      {
+        "stat_key": "A",
+        "coefficient": 1.479323
+      },
+      {
+        "stat_key": "G",
+        "coefficient": 1.216294
+      },
+      {
+        "stat_key": "CSD",
+        "coefficient": 0.755484
+      },
+      {
+        "stat_key": "SOT",
+        "coefficient": 0.501914
+      },
+      {
+        "stat_key": "TkW",
+        "coefficient": 0.456432
+      },
+      {
+        "stat_key": "DPt2",
+        "coefficient": -0.408701
+      },
+      {
+        "stat_key": "CoSF",
+        "coefficient": 0.175633
+      },
+      {
+        "stat_key": "AER",
+        "coefficient": 0.159683
+      },
+      {
+        "stat_key": "AP",
+        "coefficient": 0.009047
+      }
+    ],
+    "formula": "10.6666 + 1.4793*A + 1.2163*G + 0.7555*CSD + 0.5019*SOT + 0.4564*TkW - 0.4087*DPt2 + 0.1756*CoSF + 0.1597*AER + 0.0090*AP"
+  },
+  {
+    "season_slug": "2022-2023",
+    "source_file": "downloaddata\\players2223.csv",
+    "row_count": 538,
+    "r_squared": 0.9157,
+    "mae": 7.0045,
+    "intercept": 9.485006,
+    "coefficients": {
+      "G": 0.6368,
+      "KP": 0.190296,
+      "SOT": 0.597626,
+      "TkW": 0.366822,
+      "DPt2": -0.317598,
+      "AP": 0.008553,
+      "CoSF": 0.229754,
+      "AER": 0.174714,
+      "CSD": 1.331369
+    },
+    "top_coefficients": [
+      {
+        "stat_key": "CSD",
+        "coefficient": 1.331369
+      },
+      {
+        "stat_key": "G",
+        "coefficient": 0.6368
+      },
+      {
+        "stat_key": "SOT",
+        "coefficient": 0.597626
+      },
+      {
+        "stat_key": "TkW",
+        "coefficient": 0.366822
+      },
+      {
+        "stat_key": "DPt2",
+        "coefficient": -0.317598
+      },
+      {
+        "stat_key": "CoSF",
+        "coefficient": 0.229754
+      },
+      {
+        "stat_key": "KP",
+        "coefficient": 0.190296
+      },
+      {
+        "stat_key": "AER",
+        "coefficient": 0.174714
+      },
+      {
+        "stat_key": "AP",
+        "coefficient": 0.008553
+      }
+    ],
+    "formula": "9.4850 + 1.3314*CSD + 0.6368*G + 0.5976*SOT + 0.3668*TkW - 0.3176*DPt2 + 0.2298*CoSF + 0.1903*KP + 0.1747*AER + 0.0086*AP"
+  },
+  {
+    "season_slug": "2023-2024",
+    "source_file": "downloaddata\\players2324.csv",
+    "row_count": 796,
+    "r_squared": 0.8939,
+    "mae": 7.6039,
+    "intercept": 9.259812,
+    "coefficients": {
+      "G": 0.914628,
+      "KP": 0.218142,
+      "SOT": 0.600538,
+      "TkW": 0.384308,
+      "DPt2": -0.012729,
+      "AP": 0.005553,
+      "CoSF": 0.167298,
+      "AER": 0.180121,
+      "CSD": 1.479489
+    },
+    "top_coefficients": [
+      {
+        "stat_key": "CSD",
+        "coefficient": 1.479489
+      },
+      {
+        "stat_key": "G",
+        "coefficient": 0.914628
+      },
+      {
+        "stat_key": "SOT",
+        "coefficient": 0.600538
+      },
+      {
+        "stat_key": "TkW",
+        "coefficient": 0.384308
+      },
+      {
+        "stat_key": "KP",
+        "coefficient": 0.218142
+      },
+      {
+        "stat_key": "AER",
+        "coefficient": 0.180121
+      },
+      {
+        "stat_key": "CoSF",
+        "coefficient": 0.167298
+      },
+      {
+        "stat_key": "DPt2",
+        "coefficient": -0.012729
+      },
+      {
+        "stat_key": "AP",
+        "coefficient": 0.005553
+      }
+    ],
+    "formula": "9.2598 + 1.4795*CSD + 0.9146*G + 0.6005*SOT + 0.3843*TkW + 0.2181*KP + 0.1801*AER + 0.1673*CoSF - 0.0127*DPt2 + 0.0056*AP"
+  },
+  {
+    "season_slug": "2024-2025",
+    "source_file": "downloaddata\\players2425.csv",
+    "row_count": 744,
+    "r_squared": 0.8994,
+    "mae": 6.9959,
+    "intercept": 9.377696,
+    "coefficients": {
+      "G": 0.822373,
+      "KP": 0.255237,
+      "SOT": 0.541055,
+      "TkW": 0.304794,
+      "DPt2": -0.191277,
+      "AP": 0.007848,
+      "CoSF": 0.176768,
+      "AER": 0.168152,
+      "CSD": 1.306897
+    },
+    "top_coefficients": [
+      {
+        "stat_key": "CSD",
+        "coefficient": 1.306897
+      },
+      {
+        "stat_key": "G",
+        "coefficient": 0.822373
+      },
+      {
+        "stat_key": "SOT",
+        "coefficient": 0.541055
+      },
+      {
+        "stat_key": "TkW",
+        "coefficient": 0.304794
+      },
+      {
+        "stat_key": "KP",
+        "coefficient": 0.255237
+      },
+      {
+        "stat_key": "DPt2",
+        "coefficient": -0.191277
+      },
+      {
+        "stat_key": "CoSF",
+        "coefficient": 0.176768
+      },
+      {
+        "stat_key": "AER",
+        "coefficient": 0.168152
+      },
+      {
+        "stat_key": "AP",
+        "coefficient": 0.007848
+      }
+    ],
+    "formula": "9.3777 + 1.3069*CSD + 0.8224*G + 0.5411*SOT + 0.3048*TkW + 0.2552*KP - 0.1913*DPt2 + 0.1768*CoSF + 0.1682*AER + 0.0078*AP"
+  },
+  {
+    "season_slug": "2025-2056",
+    "source_file": "downloaddata\\players256.csv",
+    "row_count": 797,
+    "r_squared": 0.9029,
+    "mae": 7.585,
+    "intercept": 7.897163,
+    "coefficients": {
+      "G": 1.102524,
+      "KP": 0.28635,
+      "SOT": 0.728734,
+      "TkW": 0.426621,
+      "DPt2": -0.312793,
+      "AP": 0.010022,
+      "CoSF": 0.274795,
+      "AER": 0.183598,
+      "CSD": 1.269227
+    },
+    "top_coefficients": [
+      {
+        "stat_key": "CSD",
+        "coefficient": 1.269227
+      },
+      {
+        "stat_key": "G",
+        "coefficient": 1.102524
+      },
+      {
+        "stat_key": "SOT",
+        "coefficient": 0.728734
+      },
+      {
+        "stat_key": "TkW",
+        "coefficient": 0.426621
+      },
+      {
+        "stat_key": "DPt2",
+        "coefficient": -0.312793
+      },
+      {
+        "stat_key": "KP",
+        "coefficient": 0.28635
+      },
+      {
+        "stat_key": "CoSF",
+        "coefficient": 0.274795
+      },
+      {
+        "stat_key": "AER",
+        "coefficient": 0.183598
+      },
+      {
+        "stat_key": "AP",
+        "coefficient": 0.010022
+      }
+    ],
+    "formula": "7.8972 + 1.2692*CSD + 1.1025*G + 0.7287*SOT + 0.4266*TkW - 0.3128*DPt2 + 0.2863*KP + 0.2748*CoSF + 0.1836*AER + 0.0100*AP"
+  }
+]

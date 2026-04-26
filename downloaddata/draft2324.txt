@@ -1,0 +1,732 @@
+Mövenpickje FC
+László Hofnár
+Athletic Club Bapao
+Poor Man's Pirlo
+Redford United
+BarcelOna '53
+Nimma Koempels
+Sjeeterboys
+NOAD Athletic
+Klimmania
+One Season Wonderers
+Wilton Wankers
+1-1
+Bruno Fernandes
+M,F
+- MUN
+2-12
+Bruno Guimaraes
+M
+- NEW
+3-1
+K. Mitoma
+M,F
+- BHA
+4-12
+W. Saliba
+D
+- ARS
+5-1
+M. Almiron
+M,F
+- NEW
+6-12
+I. Konate
+D
+- LIV
+7-1
+P. Porro
+D,M
+- TOT
+8-12
+J. Timber
+D
+- ARS
+9-1
+M. Olise
+M,F
+- CRY
+10-12
+H. Wilson
+M,F
+- FUL
+11-1
+Ruben Dias
+D
+- MCI
+12-12
+M. Kilman
+D
+- WOL
+13-1
+E. Ferguson
+F
+- BHA
+14-12
+Kepa
+G
+- CHE
+15-1
+J. Sancho
+M,F
+- MUN
+1-2
+E. Haaland
+F
+- MCI
+2-11
+Sjeeterboys
+Rodri
+M
+- MCI
+3-2
+H. Kane
+F
+- TOT
+4-11
+A. Robertson
+D
+- LIV
+5-2
+S. Botman
+D
+- NEW
+6-11
+Andreas Pereira
+M
+- FUL
+7-2
+M. Cash
+D,M
+- AVL
+8-11
+Douglas Luiz
+M
+- AVL
+9-2
+M. Keane
+D
+- EVE
+10-11
+R. Varane
+D
+- MUN
+11-2
+S. Berge
+M
+- BUR
+12-11
+Alisson
+G
+- LIV
+13-2
+R. Henry
+D,M
+- BRF
+14-11
+A. Onana
+M
+- EVE
+15-2
+Matheus Cunha
+F
+- WOL
+1-3
+Mohamed Salah
+F
+- LIV
+2-10
+M. Mount
+M,F
+- MUN
+3-3
+P. Estupinan
+D,M
+- BHA
+4-10
+D. Kulusevski
+M,F
+- TOT
+5-3
+E. Pinnock
+D
+- BRF
+6-10
+R. Hojlund
+F
+- MUN
+7-3
+A. Ahmedhodzic
+D
+- SHU
+8-10
+J. Brownhill
+M
+- BUR
+9-3
+M. Kerkez
+D
+- BOU
+10-10
+Felipe
+D
+- NOT
+11-3
+Thiago Alcântara
+M
+- LIV
+12-10
+N. Ake
+D
+- MCI
+13-3
+H. Traore
+M
+- BOU
+14-10
+E. Nketiah
+F
+- ARS
+15-3
+B. Manuel
+F
+- BUR
+1-4
+B. Saka
+M,F
+- ARS
+2-9
+L. Diaz
+F
+- LIV
+3-4
+J. Bowen
+M,F
+- WHU
+4-9
+Gabriel Magalhaes
+D
+- ARS
+5-4
+M. Diaby
+M,F
+- AVL
+6-9
+J. Stones
+D,M
+- MCI
+7-4
+B. White
+D
+- ARS
+8-9
+A. Iwobi
+M,F
+- EVE/FUL
+9-4
+J. Egan
+D
+- SHU
+10-9
+J. Lerma
+D,M
+- CRY
+11-4
+E. Konsa
+D
+- AVL
+12-9
+T. Lockyer
+D
+- LUT
+13-4
+T. Awoniyi
+F
+- NOT
+14-9
+E. Martinez
+G
+- AVL
+15-4
+N. Madueke
+M,F
+- CHE
+1-5
+K. De Bruyne
+M
+- MCI
+2-8
+V. van Dijk
+D
+- LIV
+3-5
+H. Barnes
+M,F
+- NEW
+4-8
+A. Mitrovic
+F
+- FUL
+5-5
+O. Zinchenko
+D
+- ARS
+6-8
+Antony
+M,F
+- MUN
+7-5
+M. van de Ven
+D
+- TOT
+8-8
+C. Morris
+F
+- LUT
+9-5
+P. Hojbjerg
+M
+- TOT
+10-8
+Ederson
+G
+- MCI
+11-5
+Willian
+M,F
+- FUL
+12-8
+J. Ward
+D
+- CRY
+13-5
+J. Kluivert
+M,F
+- BOU
+14-8
+Nelson Semedo
+D,M
+- WOL
+15-5
+T. Chong
+M,F
+- LUT
+1-6
+M. Odegaard
+M
+- ARS
+2-7
+Gabriel Jesus
+F
+- ARS
+3-6
+Lucas Paqueta
+M,F
+- WHU
+4-7
+S. Tonali
+M
+- NEW
+5-6
+R. Sterling
+M,F
+- CHE
+6-7
+D. Burn
+D
+- NEW
+7-6
+L. Colwill
+D
+- CHE
+8-7
+João Palhinha
+M
+- FUL
+9-6
+T. Soucek
+M
+- WHU
+10-7
+Richarlison
+M,F
+- TOT
+11-6
+C. Romero
+D
+- TOT
+12-7
+S. Aurier
+D,M
+- NOT
+13-6
+N. Pope
+G
+- NEW
+14-7
+M. Akanji
+D,M
+- MCI
+15-6
+A. Gordon
+M,F
+- NEW
+1-7
+Gabriel Martinelli
+M,F
+- ARS
+2-6
+A. Mac Allister
+M
+- LIV
+3-7
+L. Shaw
+D
+- MUN
+4-6
+D. Szoboszlai
+M
+- LIV
+5-7
+B. Chilwell
+D,M
+- CHE
+6-6
+J. Ramsey
+M
+- AVL
+7-7
+D. McNeil
+M,F
+- EVE
+8-6
+S. Benrahma
+M,F
+- WHU
+9-7
+Alex Moreno
+D
+- AVL
+10-6
+Diogo Jota
+F
+- LIV
+11-7
+N. Aguerd
+D
+- WHU
+12-6
+J. Schlupp
+M,F
+- CRY
+13-7
+H. Bueno
+D,M
+- WOL
+14-6
+A. Hickey
+D,M
+- BRF
+15-7
+Y. Wissa
+M,F
+- BRF
+1-8
+László Hofnár
+M. Rashford
+M,F
+- MUN
+2-5
+E. Eze
+M,F
+- CRY
+3-8
+N. Jackson
+M,F
+- CHE
+4-5
+L. Dunk
+D
+- BHA
+5-8
+J. Tarkowski
+D
+- EVE
+6-5
+Joao Pedro
+M,F
+- BHA
+7-8
+Thiago Silva
+D
+- CHE
+8-5
+J. McGinn
+M,F
+- AVL
+9-8
+A. Doucoure
+M,F
+- EVE
+10-5
+D. Ouattara
+D,M,F
+- BOU
+11-8
+Diogo Dalot
+D
+- MUN
+12-5
+T. Partey
+D,M
+- ARS
+13-8
+A. Onana
+G
+- MUN
+14-5
+S. Kalajdzic
+F
+- WOL
+15-8
+C. Chukwuemeka
+M,F
+- CHE
+1-9
+K. Trippier
+D
+- NEW
+2-4
+S. March
+D,M
+- BHA
+3-9
+B. Mbeumo
+M,F
+- BRF
+4-4
+P. Gross
+D,M,F
+- BHA
+5-9
+E. Fernandez
+M,F
+- CHE
+6-4
+K. Tete
+D
+- FUL
+7-9
+Y. Tielemans
+M,F
+- AVL
+8-4
+D. Calvert-Lewin
+F
+- EVE
+9-9
+P. Billing
+M,F
+- BOU
+10-4
+J. Beyer
+D
+- BUR
+11-9
+M. Kovacic
+M
+- MCI
+12-4
+O. McBurnie
+F
+- SHU
+13-9
+A. Webster
+D
+- BHA
+14-4
+I. Gueye
+M
+- EVE
+15-9
+D. Solanke
+F
+- BOU
+1-10
+Son Heung-Min
+M,F
+- TOT
+2-3
+J. Maddison
+M,F
+- TOT
+3-10
+Casemiro
+D,M
+- MUN
+4-3
+D. Rice
+M
+- ARS
+5-10
+L. Martinez
+D
+- MUN
+6-3
+B. Mee
+D
+- BRF
+7-10
+J. Gvardiol
+D
+- MCI
+8-3
+J. Ayew
+M,F
+- CRY
+9-10
+M. Caicedo
+M
+- BHA/CHE
+10-3
+J. Andersen
+D
+- CRY
+11-10
+A. Ramsdale
+G
+- ARS
+12-3
+Matheus Nunes
+M
+- WOL/MCI
+13-10
+C. Nkunku
+F
+- CHE
+14-3
+M. Nakamba
+M
+- LUT
+15-10
+A. Robinson
+D
+- FUL
+1-11
+T. Alexander-Arnold
+D
+- LIV
+2-2
+O. Watkins
+F
+- AVL
+3-11
+K. Havertz
+M,F
+- ARS
+4-2
+J. Grealish
+M,F
+- MCI
+5-11
+F. Schar
+D
+- NEW
+6-2
+A. Isak
+F
+- NEW
+7-11
+M. Mudryk
+M,F
+- CHE
+8-2
+P. Torres
+D
+- AVL
+9-11
+J. Enciso
+M,F
+- BHA
+10-2
+D. Nunez
+F
+- LIV
+11-11
+C. Bassey
+D
+- FUL
+12-2
+J. Pickford
+G
+- EVE
+13-11
+B. Johnson
+M,F
+- NOT/TOT
+14-2
+M. Dahoud
+M
+- BHA
+15-11
+A. Disasi
+D
+- CHE
+1-12
+P. Foden
+M,F
+- MCI
+2-1
+C. Gakpo
+M,F
+- LIV
+3-12
+R. James
+D,M
+- CHE
+4-1
+M. Gibbs-White
+M,F
+- NOT
+5-12
+Joelinton
+M,F
+- NEW
+6-1
+J. Alvarez
+M,F
+- MCI
+7-12
+M. Guehi
+D
+- CRY
+8-1
+T. Mings
+D
+- AVL
+9-12
+C. Wilson
+F
+- NEW
+10-1
+J. Veltman
+D
+- BHA
+11-12
+J. Cullen
+M
+- BUR
+12-1
+M. Flekken
+G
+- BRF
+13-12
+Carlos Vinicius
+F
+- FUL
+14-1
+B. Davies
+D,M
+- TOT
+15-12
+M. Jensen

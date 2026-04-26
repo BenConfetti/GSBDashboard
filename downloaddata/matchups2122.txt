@@ -1,0 +1,900 @@
+Gameweek 1
+(Fri Aug 13, 2021 - Thu Aug 19, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Klimmania
+Sjeeterboys
+Redford United
+BarcelOna '53
+NOAD Athletic
+Poor Man's Pirlo
+Mövenpickje FC
+Nimma Koempels
+SSC Fugazi
+Athletic de Bapao
+4	4	3	5.5	100.0	1	1	2	9	0	294	20	24	0
+4	4	3	5.5	100.0	4	1	7	6	0	249	14	29	3
+4	6	1	4.5	50.0	4	0	6	4	0	246	15	12	0
+6	4	1	6.5	66.7	1	1	4	12	3	424	14	23	0
+8	0	3	9.5	66.7	2	0	4	5	2	314	19	15	0
+0	8	3	1.5	37.5	1	0	2	3	2	195	6	8	0
+4	7	0	4	57.1	0	2	4	3	0	307	14	18	0
+7	4	0	7	33.3	1	0	6	10	1	442	6	26	1
+5	4	2	6	100.0	1	7	5	8	0	196	19	21	0
+4	5	2	5	100.0	4	0	7	4	0	229	9	13	1
+Gameweek 2
+(Fri Aug 20, 2021 - Thu Aug 26, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Redford United
+Klimmania
+NOAD Athletic
+BarcelOna '53
+Mövenpickje FC
+Poor Man's Pirlo
+SSC Fugazi
+Nimma Koempels
+Athletic de Bapao
+10	0	1	10.5	100.0	4	4	10	10	0	262	16	21	1
+0	10	1	0.5	83.3	2	1	4	7	0	191	8	9	2
+3	5	3	4.5	100.0	2	0	4	8	1	228	20	20	2
+5	3	3	6.5	100.0	1	3	6	10	3	370	20	17	2
+6	4	1	6.5	75.0	2	1	2	11	3	361	19	16	3
+4	6	1	4.5	100.0	1	1	6	8	2	335	18	19	0
+1	8	2	2	75.0	0	0	3	5	2	269	11	11	1
+8	1	2	9	100.0	0	3	5	8	3	452	22	29	3
+5	0	6	8	75.0	2	1	3	5	4	435	11	13	0
+0	5	6	3	42.9	2	1	3	5	1	283	8	13	2
+Gameweek 3
+(Fri Aug 27, 2021 - Thu Sep 9, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+NOAD Athletic
+Sjeeterboys
+Mövenpickje FC
+Redford United
+SSC Fugazi
+Klimmania
+Athletic de Bapao
+BarcelOna '53
+Nimma Koempels
+Poor Man's Pirlo
+3	7	1	3.5	60.0	2	0	6	14	1	277	9	25	3
+7	3	1	7.5	85.7	3	1	4	8	1	306	19	17	2
+4	6	1	4.5	50.0	0	0	1	8	1	290	9	18	2
+6	4	1	6.5	-	2	1	5	8	0	298	11	11	5
+3	4	4	5	66.7	1	1	6	4	2	481	15	15	4
+4	3	4	6	100.0	1	1	5	8	1	266	31	15	3
+7	3	1	7.5	75.0	4	2	10	5	1	262	14	26	0
+3	7	1	3.5	50.0	0	2	3	13	0	376	15	10	2
+3	6	2	4	100.0	0	1	3	10	1	425	11	19	1
+6	3	2	7	66.7	2	1	6	11	1	489	14	9	4
+Gameweek 4
+(Fri Sep 10, 2021 - Thu Sep 16, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Mövenpickje FC
+NOAD Athletic
+SSC Fugazi
+Redford United
+Athletic de Bapao
+Klimmania
+Nimma Koempels
+BarcelOna '53
+Poor Man's Pirlo
+3	5	3	4.5	100.0	0	1	4	11	1	352	12	12	4
+5	3	3	6.5	100.0	1	1	6	9	1	171	11	16	2
+1	8	2	2	100.0	0	1	2	5	3	354	8	10	4
+8	1	2	9	100.0	2	2	5	3	3	432	14	21	2
+6	4	1	6.5	100.0	4	1	7	6	1	285	11	10	1
+4	6	1	4.5	87.5	1	0	4	7	2	285	12	12	2
+4	5	2	5	25.0	4	1	4	2	1	240	20	14	0
+5	4	2	6	100.0	0	1	2	6	2	256	6	22	0
+3	5	3	4.5	50.0	0	1	3	12	1	345	11	21	4
+5	3	3	6.5	62.5	0	1	4	6	2	315	14	16	1
+Gameweek 5
+(Fri Sep 17, 2021 - Thu Sep 23, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+SSC Fugazi
+Sjeeterboys
+Athletic de Bapao
+Mövenpickje FC
+Nimma Koempels
+NOAD Athletic
+Poor Man's Pirlo
+Redford United
+BarcelOna '53
+Klimmania
+2	6	3	3.5	100.0	1	0	5	2	1	185	12	22	1
+6	2	3	7.5	-	2	1	5	10	1	334	20	17	1
+10	0	1	10.5	60.0	2	2	4	5	3	340	18	17	0
+0	10	1	0.5	33.3	1	0	2	3	2	255	11	16	0
+5	4	2	6	100.0	1	1	3	11	1	331	13	23	0
+4	5	2	5	66.7	3	1	8	5	1	384	7	10	1
+3	7	1	3.5	85.7	0	1	2	6	2	383	14	13	0
+7	3	1	7.5	100.0	1	1	9	10	0	344	17	14	1
+3	6	2	4	-	1	1	4	8	0	378	20	20	2
+6	3	2	7	-	2	1	8	4	1	206	11	22	0
+Gameweek 6
+(Fri Sep 24, 2021 - Thu Sep 30, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Athletic de Bapao
+SSC Fugazi
+Nimma Koempels
+Mövenpickje FC
+Poor Man's Pirlo
+NOAD Athletic
+BarcelOna '53
+Redford United
+Klimmania
+4	4	3	5.5	66.7	1	1	6	7	0	179	27	15	3
+4	4	3	5.5	50.0	5	0	9	7	0	304	13	14	3
+4	5	2	5	0.0	3	1	8	5	1	315	19	11	2
+5	4	2	6	-	0	1	5	11	2	342	8	14	0
+6	1	4	8	100.0	0	0	4	11	1	288	13	12	3
+1	6	4	3	71.4	0	0	4	5	0	261	12	6	0
+1	5	5	3.5	66.7	1	1	3	6	1	291	9	14	1
+5	1	5	7.5	50.0	1	1	4	9	1	312	20	17	1
+8	3	0	8	-	1	1	2	10	1	336	18	16	1
+3	8	0	3	57.1	0	2	1	5	0	236	10	22	2
+Gameweek 7
+(Fri Oct 1, 2021 - Thu Oct 14, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Nimma Koempels
+Sjeeterboys
+Poor Man's Pirlo
+Athletic de Bapao
+BarcelOna '53
+SSC Fugazi
+Klimmania
+Mövenpickje FC
+Redford United
+NOAD Athletic
+6	4	1	6.5	100.0	1	2	4	7	0	259	17	18	1
+4	6	1	4.5	50.0	0	0	3	4	3	303	19	30	1
+4	5	2	5	100.0	1	0	5	3	0	362	25	11	3
+5	4	2	6	50.0	1	1	4	5	2	241	13	20	1
+5	4	2	6	80.0	0	2	4	9	0	281	18	16	2
+4	5	2	5	33.3	1	2	1	12	0	293	10	11	3
+2	5	4	4	66.7	1	0	3	5	0	232	7	24	1
+5	2	4	7	50.0	1	0	5	7	2	271	8	22	1
+5	6	0	5	33.3	1	1	1	7	2	311	12	20	2
+6	5	0	6	100.0	0	0	2	15	0	347	22	21	3
+Gameweek 8
+(Fri Oct 15, 2021 - Thu Oct 21, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Poor Man's Pirlo
+Nimma Koempels
+BarcelOna '53
+Athletic de Bapao
+Klimmania
+SSC Fugazi
+Redford United
+Mövenpickje FC
+NOAD Athletic
+6	3	2	7	100.0	2	0	5	7	1	267	21	9	1
+3	6	2	4	75.0	1	1	1	4	1	332	13	13	1
+6	5	0	6	25.0	1	3	4	4	2	335	12	12	0
+5	6	0	5	66.7	2	0	3	10	0	326	10	18	3
+4	6	1	4.5	75.0	2	0	5	7	0	273	15	10	2
+6	4	1	6.5	0.0	1	0	3	11	3	329	21	17	1
+7	2	2	8	-	2	1	5	6	3	487	14	17	2
+2	7	2	3	63.6	0	1	3	8	2	425	9	9	2
+4	6	1	4.5	60.0	1	0	6	11	2	345	17	16	2
+6	4	1	6.5	100.0	2	0	4	6	3	404	14	15	1
+Gameweek 9
+(Fri Oct 22, 2021 - Thu Oct 28, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+BarcelOna '53
+Sjeeterboys
+Klimmania
+Poor Man's Pirlo
+Redford United
+Nimma Koempels
+NOAD Athletic
+Athletic de Bapao
+Mövenpickje FC
+SSC Fugazi
+3	5	3	4.5	75.0	4	1	7	8	0	309	16	18	5
+5	3	3	6.5	100.0	1	1	7	10	0	279	21	33	3
+3	3	5	5.5	75.0	1	2	3	3	1	286	13	13	0
+3	3	5	5.5	75.0	1	0	3	6	1	381	15	12	4
+3	5	3	4.5	0.0	0	1	7	2	0	388	16	6	2
+5	3	3	6.5	60.0	0	2	5	6	1	280	9	21	2
+9	1	1	9.5	80.0	2	4	6	14	2	399	13	20	2
+1	9	1	1.5	37.5	0	1	5	8	0	224	13	8	0
+4	6	1	4.5	75.0	1	1	2	6	0	265	7	23	0
+6	4	1	6.5	80.0	6	2	9	3	0	291	5	14	4
+Gameweek 10
+(Fri Oct 29, 2021 - Thu Nov 4, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Klimmania
+BarcelOna '53
+Redford United
+Poor Man's Pirlo
+NOAD Athletic
+Nimma Koempels
+Mövenpickje FC
+Athletic de Bapao
+SSC Fugazi
+7	3	1	7.5	100.0	2	1	6	8	0	317	21	24	1
+3	7	1	3.5	25.0	0	0	1	6	1	323	28	22	1
+6	4	1	6.5	100.0	1	0	4	5	1	345	16	10	0
+4	6	1	4.5	75.0	5	1	8	4	1	332	14	8	1
+8	3	0	8	66.7	2	0	3	7	2	326	16	17	2
+3	8	0	3	33.3	1	2	4	4	1	446	15	16	3
+7	4	0	7	100.0	2	2	5	5	0	271	6	26	1
+4	7	0	4	80.0	1	0	3	6	1	340	22	23	4
+2	6	3	3.5	50.0	1	2	2	9	1	238	15	15	2
+6	2	3	7.5	66.7	1	1	5	11	1	401	10	21	1
+Gameweek 11
+(Fri Nov 5, 2021 - Thu Nov 18, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Redford United
+Sjeeterboys
+NOAD Athletic
+Klimmania
+Mövenpickje FC
+BarcelOna '53
+SSC Fugazi
+Poor Man's Pirlo
+Athletic de Bapao
+Nimma Koempels
+6	4	1	6.5	100.0	0	1	6	7	3	508	11	26	3
+4	6	1	4.5	50.0	1	0	4	14	0	293	20	12	3
+5	5	1	5.5	50.0	1	2	2	14	0	305	11	16	5
+5	5	1	5.5	100.0	0	0	1	8	3	491	11	20	3
+4	5	2	5	66.7	2	0	4	9	0	273	7	20	2
+5	4	2	6	100.0	1	0	2	11	1	327	30	15	2
+3	6	2	4	25.0	0	1	2	5	2	447	14	20	1
+6	3	2	7	66.7	1	1	4	10	1	417	14	21	3
+7	3	1	7.5	-	1	0	5	13	3	309	18	20	2
+3	7	1	3.5	66.7	0	0	2	8	1	316	6	17	0
+Gameweek 12
+(Fri Nov 19, 2021 - Thu Nov 25, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+NOAD Athletic
+Redford United
+Mövenpickje FC
+Klimmania
+SSC Fugazi
+BarcelOna '53
+Athletic de Bapao
+Poor Man's Pirlo
+Nimma Koempels
+2	8	1	2.5	100.0	2	0	5	11	0	211	12	15	3
+8	2	1	8.5	50.0	5	2	11	8	2	386	19	18	3
+6	4	1	6.5	66.7	2	2	4	14	1	374	13	12	1
+4	6	1	4.5	100.0	1	2	3	9	2	383	5	25	2
+3	3	5	5.5	85.7	2	1	7	3	1	353	22	21	2
+3	3	5	5.5	100.0	2	1	6	6	1	437	17	19	2
+5	3	3	6.5	55.6	1	4	4	12	2	420	28	16	6
+3	5	3	4.5	62.5	1	0	4	6	0	329	22	18	1
+8	2	1	8.5	50.0	1	1	4	9	1	417	9	23	1
+2	8	1	2.5	100.0	0	2	1	5	0	312	8	16	1
+Gameweek 13
+(Fri Nov 26, 2021 - Mon Nov 29, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Mövenpickje FC
+Sjeeterboys
+SSC Fugazi
+NOAD Athletic
+Athletic de Bapao
+Redford United
+Nimma Koempels
+Klimmania
+Poor Man's Pirlo
+BarcelOna '53
+5	3	3	6.5	100.0	1	0	5	4	0	332	6	27	1
+3	5	3	4.5	50.0	1	0	1	11	1	243	19	16	2
+1	6	4	3	100.0	0	1	1	4	2	402	10	8	3
+6	1	4	8	100.0	0	1	4	9	3	356	12	13	1
+8	3	0	8	-	4	1	8	6	2	269	18	27	1
+3	8	0	3	33.3	0	0	3	7	1	300	6	13	3
+3	3	5	5.5	75.0	1	0	4	8	2	308	12	8	2
+3	3	5	5.5	-	1	0	4	8	1	258	21	22	1
+5	4	2	6	100.0	3	1	5	10	1	360	10	10	1
+4	5	2	5	100.0	1	0	2	16	2	321	13	19	1
+Gameweek 14
+(Tue Nov 30, 2021 - Thu Dec 2, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+SSC Fugazi
+Mövenpickje FC
+Athletic de Bapao
+NOAD Athletic
+Nimma Koempels
+Redford United
+Poor Man's Pirlo
+Klimmania
+BarcelOna '53
+4	6	1	4.5	85.7	1	0	5	4	2	328	27	17	1
+6	4	1	6.5	50.0	3	3	7	11	0	358	12	12	1
+3	6	2	4	100.0	1	0	4	13	1	273	17	18	3
+6	3	2	7	100.0	3	1	4	10	0	262	24	20	1
+3	3	5	5.5	80.0	2	1	6	3	2	326	13	12	1
+3	3	5	5.5	42.9	2	1	6	5	0	292	21	22	1
+7	3	1	7.5	66.7	2	1	8	7	0	354	17	10	0
+3	7	1	3.5	100.0	0	0	1	3	0	260	25	12	3
+4	2	5	6.5	100.0	2	0	4	6	1	283	20	20	2
+2	4	5	4.5	70.0	2	0	3	9	1	205	18	22	2
+Gameweek 15
+(Fri Dec 3, 2021 - Thu Dec 9, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Athletic de Bapao
+Sjeeterboys
+Nimma Koempels
+SSC Fugazi
+Poor Man's Pirlo
+Mövenpickje FC
+BarcelOna '53
+NOAD Athletic
+Klimmania
+Redford United
+8	3	0	8	75.0	1	2	3	4	0	249	14	20	0
+3	8	0	3	25.0	0	3	1	6	2	229	5	10	2
+4	5	2	5	100.0	2	0	6	3	0	360	13	21	1
+5	4	2	6	100.0	0	2	2	8	2	486	14	13	1
+5	5	1	5.5	33.3	1	0	7	6	1	406	16	23	2
+5	5	1	5.5	75.0	2	1	5	7	0	381	11	16	2
+5	4	2	6	60.0	2	0	7	9	1	297	21	13	0
+4	5	2	5	75.0	3	0	4	8	1	306	17	10	1
+4	3	4	6	100.0	0	0	4	15	1	286	11	17	4
+3	4	4	5	50.0	0	0	3	4	1	420	21	16	2
+Gameweek 16
+(Fri Dec 10, 2021 - Mon Dec 13, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Nimma Koempels
+Athletic de Bapao
+Poor Man's Pirlo
+SSC Fugazi
+BarcelOna '53
+Mövenpickje FC
+Klimmania
+NOAD Athletic
+Redford United
+4	6	1	4.5	60.0	1	1	3	9	3	223	18	11	1
+6	4	1	6.5	100.0	2	0	5	7	2	281	15	16	1
+4	5	2	5	100.0	0	1	1	8	1	281	21	12	0
+5	4	2	6	50.0	2	0	8	8	2	381	18	12	3
+3	6	2	4	-	2	0	6	5	3	413	19	28	3
+6	3	2	7	100.0	5	0	9	10	2	300	26	13	3
+4	6	1	4.5	100.0	2	1	4	6	0	183	5	10	1
+6	4	1	6.5	50.0	1	1	6	9	1	294	9	37	2
+1	8	2	2	100.0	0	0	2	8	2	285	18	17	2
+8	1	2	9	100.0	1	0	3	11	3	380	19	11	1
+Gameweek 17
+(Tue Dec 14, 2021 - Thu Dec 16, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Poor Man's Pirlo
+Sjeeterboys
+BarcelOna '53
+Nimma Koempels
+Klimmania
+Athletic de Bapao
+Redford United
+SSC Fugazi
+NOAD Athletic
+Mövenpickje FC
+8	2	1	8.5	53.3	1	1	3	7	0	175	6	13	2
+2	8	1	2.5	66.7	0	0	1	3	0	127	8	8	4
+9	0	2	10	100.0	5	1	12	10	1	323	12	19	1
+0	9	2	1	-	1	0	5	5	1	206	4	12	1
+7	4	0	7	90.0	2	1	3	7	3	310	7	10	2
+4	7	0	4	-	1	0	4	5	1	253	10	17	0
+1	10	0	1	-	0	0	0	6	1	229	5	3	1
+10	1	0	10	50.0	1	1	3	8	2	378	14	16	2
+6	4	1	6.5	75.0	1	0	2	4	1	332	22	8	0
+4	6	1	4.5	100.0	0	1	1	9	1	172	4	20	1
+Gameweek 18
+(Fri Dec 17, 2021 - Fri Dec 24, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+BarcelOna '53
+Poor Man's Pirlo
+Klimmania
+Nimma Koempels
+Redford United
+Athletic de Bapao
+NOAD Athletic
+SSC Fugazi
+Mövenpickje FC
+3	4	4	5	100.0	3	0	3	1	0	58	6	10	0
+4	3	4	6	50.0	0	0	3	4	1	320	8	10	0
+5	4	2	6	66.7	2	1	5	0	0	196	4	15	2
+4	5	2	5	66.7	0	0	2	5	2	210	4	8	0
+2	8	1	2.5	100.0	0	1	1	0	0	103	2	1	0
+8	2	1	8.5	42.9	1	2	2	5	2	229	2	6	1
+3	7	1	3.5	-	2	0	3	3	0	157	9	8	0
+7	3	1	7.5	-	1	2	4	8	3	392	14	9	2
+6	2	3	7.5	60.0	2	2	4	7	1	281	9	7	4
+2	6	3	3.5	100.0	2	1	3	6	1	182	4	6	2
+Gameweek 19
+(Sat Dec 25, 2021 - Mon Dec 27, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Klimmania
+Sjeeterboys
+Redford United
+BarcelOna '53
+NOAD Athletic
+Poor Man's Pirlo
+Mövenpickje FC
+Nimma Koempels
+SSC Fugazi
+Athletic de Bapao
+5	2	4	7	-	4	0	9	6	1	352	12	20	1
+2	5	4	4	50.0	1	0	4	6	1	272	17	20	4
+3	3	5	5.5	100.0	1	0	2	7	1	387	14	7	3
+3	3	5	5.5	100.0	1	1	2	10	1	343	9	9	4
+4	5	2	5	25.0	0	1	1	9	0	346	16	13	1
+5	4	2	6	-	5	3	7	4	0	336	5	17	1
+5	3	3	6.5	62.5	4	0	5	8	1	293	3	20	2
+3	5	3	4.5	87.5	4	3	4	3	0	263	10	16	2
+5	4	2	6	50.0	1	2	3	5	0	303	6	13	1
+4	5	2	5	-	1	1	4	8	1	246	8	12	2
+Gameweek 20
+(Tue Dec 28, 2021 - Thu Dec 30, 2021)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Redford United
+Klimmania
+NOAD Athletic
+BarcelOna '53
+Mövenpickje FC
+Poor Man's Pirlo
+SSC Fugazi
+Nimma Koempels
+Athletic de Bapao
+4	6	1	4.5	83.3	0	1	5	8	0	206	18	20	1
+6	4	1	6.5	80.0	1	1	2	7	1	295	19	6	0
+6	4	1	6.5	50.0	2	1	4	5	1	237	16	10	3
+4	6	1	4.5	-	1	0	5	7	0	392	13	14	3
+8	1	2	9	-	2	1	6	9	1	297	19	15	0
+1	8	2	2	100.0	0	0	0	5	1	88	2	2	0
+9	1	1	9.5	100.0	2	0	6	4	2	190	15	10	0
+1	9	1	1.5	80.0	0	0	2	1	1	160	9	11	1
+8	1	2	9	66.7	1	2	5	8	0	218	9	11	1
+1	8	2	2	-	0	0	3	3	0	107	17	7	1
+Gameweek 21
+(Fri Dec 31, 2021 - Thu Jan 13, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+NOAD Athletic
+Sjeeterboys
+Mövenpickje FC
+Redford United
+SSC Fugazi
+Klimmania
+Athletic de Bapao
+BarcelOna '53
+Nimma Koempels
+Poor Man's Pirlo
+3	7	1	3.5	50.0	0	2	2	9	1	371	19	16	2
+7	3	1	7.5	66.7	1	1	4	17	1	313	25	30	3
+2	6	3	3.5	50.0	2	0	4	12	0	206	6	9	4
+6	2	3	7.5	40.0	3	0	8	4	0	433	25	9	0
+1	10	0	1	77.8	1	0	3	5	0	267	10	10	1
+10	1	0	10	100.0	2	1	5	2	2	302	14	18	0
+5	5	1	5.5	50.0	0	2	4	5	0	277	22	28	0
+5	5	1	5.5	0.0	2	0	5	5	1	283	13	12	2
+6	5	0	6	83.3	2	1	7	11	1	304	15	15	2
+5	6	0	5	100.0	0	0	4	10	0	382	20	23	0
+Gameweek 22
+(Fri Jan 14, 2022 - Thu Jan 20, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Mövenpickje FC
+NOAD Athletic
+SSC Fugazi
+Redford United
+Athletic de Bapao
+Klimmania
+Nimma Koempels
+BarcelOna '53
+Poor Man's Pirlo
+7	3	1	7.5	62.5	3	3	5	9	0	410	25	26	2
+3	7	1	3.5	100.0	1	0	3	13	0	257	11	8	0
+5	5	1	5.5	66.7	0	1	1	17	1	453	18	22	2
+5	5	1	5.5	40.0	1	1	2	7	2	308	13	7	0
+7	4	0	7	50.0	1	2	4	11	1	491	27	15	1
+4	7	0	4	60.0	0	1	7	18	0	486	17	26	4
+4	6	1	4.5	50.0	2	0	10	13	0	323	14	25	2
+6	4	1	6.5	82.4	3	3	6	10	0	380	7	10	1
+2	8	1	2.5	-	1	0	3	8	1	384	6	8	1
+8	2	1	8.5	90.0	3	1	10	7	1	402	26	18	2
+Gameweek 23
+(Fri Jan 21, 2022 - Mon Feb 7, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+SSC Fugazi
+Sjeeterboys
+Athletic de Bapao
+Mövenpickje FC
+Nimma Koempels
+NOAD Athletic
+Poor Man's Pirlo
+Redford United
+BarcelOna '53
+Klimmania
+6	4	1	6.5	-	1	2	3	15	1	479	19	15	1
+4	6	1	4.5	75.0	2	0	2	5	0	320	12	20	1
+4	4	3	5.5	66.7	1	1	5	10	1	279	20	19	1
+4	4	3	5.5	66.7	0	1	3	10	4	321	22	25	2
+3	3	5	5.5	80.0	0	0	0	14	1	322	11	22	2
+3	3	5	5.5	-	0	0	0	12	2	457	14	18	2
+3	5	3	4.5	0.0	1	0	5	8	1	364	13	20	0
+5	3	3	6.5	66.7	0	0	5	9	1	427	28	30	1
+4	5	2	5	100.0	1	2	3	8	3	437	31	18	5
+5	4	2	6	71.4	1	0	6	11	4	389	24	35	3
+Gameweek 24
+(Tue Feb 8, 2022 - Thu Feb 10, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Athletic de Bapao
+SSC Fugazi
+Nimma Koempels
+Mövenpickje FC
+Poor Man's Pirlo
+NOAD Athletic
+BarcelOna '53
+Redford United
+Klimmania
+4	7	0	4	66.7	0	1	1	5	1	199	18	12	5
+7	4	0	7	40.0	3	0	4	10	0	252	14	19	0
+5	4	2	6	100.0	0	1	6	8	4	390	11	14	0
+4	5	2	5	0.0	4	0	7	8	0	363	17	12	0
+5	3	3	6.5	100.0	3	2	6	9	1	286	5	16	6
+3	5	3	4.5	50.0	0	2	5	9	1	445	26	15	1
+4	3	4	6	57.1	1	0	3	2	2	356	16	11	0
+3	4	4	5	100.0	1	0	3	13	0	268	26	10	2
+4	4	3	5.5	70.0	0	1	3	5	2	264	23	16	0
+4	4	3	5.5	66.7	0	1	4	8	1	312	16	20	2
+Gameweek 25
+(Fri Feb 11, 2022 - Thu Feb 17, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Nimma Koempels
+Sjeeterboys
+Poor Man's Pirlo
+Athletic de Bapao
+BarcelOna '53
+SSC Fugazi
+Klimmania
+Mövenpickje FC
+Redford United
+NOAD Athletic
+7	3	1	7.5	100.0	2	2	5	8	3	562	22	26	10
+3	7	1	3.5	85.7	1	0	5	13	2	429	24	18	0
+7	1	3	8.5	100.0	3	1	10	12	2	391	28	21	2
+1	7	3	2.5	70.0	0	1	3	10	2	254	22	27	2
+5	4	2	6	33.3	1	1	2	10	1	314	16	21	2
+4	5	2	5	0.0	0	3	2	9	4	486	16	22	4
+6	3	2	7	71.4	2	0	5	5	2	279	16	23	0
+3	6	2	4	100.0	0	0	1	7	1	274	6	24	0
+5	3	3	6.5	-	2	0	6	4	0	177	17	14	2
+3	5	3	4.5	50.0	1	0	3	4	2	297	10	11	2
+Gameweek 26
+(Fri Feb 18, 2022 - Thu Feb 24, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Poor Man's Pirlo
+Nimma Koempels
+BarcelOna '53
+Athletic de Bapao
+Klimmania
+SSC Fugazi
+Redford United
+Mövenpickje FC
+NOAD Athletic
+2	8	1	2.5	-	2	2	3	10	0	315	12	19	0
+8	2	1	8.5	66.7	3	2	8	7	1	677	22	28	1
+1	10	0	1	33.3	1	1	4	13	0	383	9	13	2
+10	1	0	10	50.0	6	0	10	14	3	440	13	29	1
+6	0	5	8.5	76.9	0	2	6	7	1	370	15	20	2
+0	6	5	2.5	25.0	0	0	1	6	1	346	15	9	2
+6	5	0	6	66.7	5	4	13	10	2	556	21	29	1
+5	6	0	5	81.8	0	2	5	13	0	632	26	44	4
+7	2	2	8	40.0	3	2	9	24	0	582	13	38	2
+2	7	2	3	75.0	1	2	3	9	3	275	11	22	2
+Gameweek 27
+(Fri Feb 25, 2022 - Thu Mar 3, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+BarcelOna '53
+Sjeeterboys
+Klimmania
+Poor Man's Pirlo
+Redford United
+Nimma Koempels
+NOAD Athletic
+Athletic de Bapao
+Mövenpickje FC
+SSC Fugazi
+7	2	2	8	70.0	1	0	6	10	1	229	16	24	1
+2	7	2	3	100.0	0	0	3	4	1	213	18	16	3
+5	6	0	5	50.0	3	0	5	7	4	351	8	7	3
+6	5	0	6	100.0	2	1	4	6	3	366	14	21	0
+6	2	3	7.5	100.0	0	2	8	9	2	310	11	28	0
+2	6	3	3.5	100.0	0	0	3	7	1	395	15	12	1
+1	5	5	3.5	100.0	1	0	4	6	1	278	8	12	0
+5	1	5	7.5	75.0	1	0	9	6	4	340	14	24	0
+5	4	2	6	100.0	1	0	4	12	1	274	12	22	4
+4	5	2	5	100.0	0	0	1	10	3	433	24	20	0
+Gameweek 28
+(Fri Mar 4, 2022 - Thu Mar 10, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Klimmania
+BarcelOna '53
+Redford United
+Poor Man's Pirlo
+NOAD Athletic
+Nimma Koempels
+Mövenpickje FC
+Athletic de Bapao
+SSC Fugazi
+3	6	2	4	66.7	3	2	4	5	3	366	15	22	3
+6	3	2	7	50.0	2	2	7	6	3	473	17	28	2
+7	4	0	7	71.4	4	2	10	10	1	684	28	52	3
+4	7	0	4	100.0	2	0	4	12	0	566	31	18	1
+3	7	1	3.5	100.0	4	1	4	7	1	430	17	11	2
+7	3	1	7.5	100.0	2	4	6	9	2	635	14	32	0
+2	9	0	2	-	1	0	2	13	2	434	16	17	0
+9	2	0	9	66.7	5	1	15	15	1	606	17	28	4
+5	5	1	5.5	75.0	2	2	6	10	1	404	29	39	1
+5	5	1	5.5	50.0	1	3	6	17	2	566	11	26	0
+Gameweek 29
+(Fri Mar 11, 2022 - Thu Mar 17, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Redford United
+Sjeeterboys
+NOAD Athletic
+Klimmania
+Mövenpickje FC
+BarcelOna '53
+SSC Fugazi
+Poor Man's Pirlo
+Athletic de Bapao
+Nimma Koempels
+6	4	1	6.5	75.0	0	0	4	20	3	666	37	24	1
+4	6	1	4.5	100.0	2	2	3	12	3	569	30	21	2
+5	4	2	6	50.0	0	2	8	10	4	472	14	9	1
+4	5	2	5	85.7	0	0	3	4	3	369	24	19	0
+9	1	1	9.5	100.0	2	1	8	13	2	649	12	27	1
+1	9	1	1.5	66.7	0	0	5	7	0	202	14	17	1
+4	6	1	4.5	100.0	2	2	6	10	4	493	20	17	1
+6	4	1	6.5	100.0	4	1	10	14	3	544	17	24	3
+6	4	1	6.5	100.0	2	0	5	20	1	408	13	39	5
+4	6	1	4.5	33.3	1	3	2	15	1	514	15	20	2
+Gameweek 30
+(Fri Mar 18, 2022 - Thu Mar 31, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+NOAD Athletic
+Redford United
+Mövenpickje FC
+Klimmania
+SSC Fugazi
+BarcelOna '53
+Athletic de Bapao
+Poor Man's Pirlo
+Nimma Koempels
+5	3	3	6.5	-	0	0	1	5	0	286	16	15	2
+3	5	3	4.5	75.0	0	2	0	2	0	193	1	2	1
+2	6	3	3.5	50.0	0	0	1	2	1	284	7	11	1
+6	2	3	7.5	0.0	2	0	5	6	1	334	5	14	1
+7	3	1	7.5	40.0	1	1	3	2	0	281	1	23	0
+3	7	1	3.5	50.0	0	0	0	12	0	276	12	11	4
+1	9	1	1.5	-	0	0	1	3	0	86	2	5	0
+9	1	1	9.5	40.0	3	0	4	4	1	155	6	7	1
+5	6	0	5	-	0	3	3	1	0	216	3	7	0
+6	5	0	6	83.3	1	0	1	5	1	182	2	8	3
+Gameweek 31
+(Fri Apr 1, 2022 - Thu Apr 7, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Mövenpickje FC
+Sjeeterboys
+SSC Fugazi
+NOAD Athletic
+Athletic de Bapao
+Redford United
+Nimma Koempels
+Klimmania
+Poor Man's Pirlo
+BarcelOna '53
+2	5	4	4	100.0	1	0	5	2	0	311	13	13	2
+5	2	4	7	33.3	1	1	3	6	0	349	20	25	2
+5	4	2	6	100.0	0	0	3	11	2	448	13	18	1
+4	5	2	5	-	1	0	4	5	1	317	29	13	1
+7	4	0	7	80.0	2	2	7	9	0	242	13	24	2
+4	7	0	4	60.0	1	1	5	0	1	304	14	10	1
+5	3	3	6.5	80.0	1	0	4	9	1	289	19	16	3
+3	5	3	4.5	50.0	1	1	3	5	1	382	8	20	5
+9	2	0	9	100.0	3	4	5	9	1	470	17	27	2
+2	9	0	2	66.7	1	0	3	8	0	355	28	11	1
+Gameweek 32
+(Fri Apr 8, 2022 - Thu Apr 14, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+SSC Fugazi
+Mövenpickje FC
+Athletic de Bapao
+NOAD Athletic
+Nimma Koempels
+Redford United
+Poor Man's Pirlo
+Klimmania
+BarcelOna '53
+7	3	1	7.5	100.0	2	1	3	4	1	286	16	7	1
+3	7	1	3.5	33.3	0	1	2	7	0	349	7	17	2
+2	8	1	2.5	50.0	1	0	3	9	1	270	10	18	2
+8	2	1	8.5	75.0	4	0	7	8	5	322	13	11	0
+9	1	1	9.5	100.0	1	2	4	12	1	401	16	7	0
+1	9	1	1.5	66.7	0	0	2	7	0	270	8	16	0
+2	6	3	3.5	20.0	1	2	2	7	0	407	13	19	3
+6	2	3	7.5	50.0	1	2	5	9	1	262	11	20	2
+2	8	1	2.5	71.4	0	1	3	2	1	265	7	12	0
+8	2	1	8.5	66.7	3	0	8	10	2	379	17	15	0
+Gameweek 33
+(Fri Apr 15, 2022 - Thu Apr 21, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Athletic de Bapao
+Sjeeterboys
+Nimma Koempels
+SSC Fugazi
+Poor Man's Pirlo
+Mövenpickje FC
+BarcelOna '53
+NOAD Athletic
+Klimmania
+Redford United
+6	5	0	6	66.7	0	1	1	11	2	294	21	19	1
+5	6	0	5	0.0	3	0	8	7	0	267	28	24	4
+4	5	2	5	70.0	2	2	9	11	1	487	14	29	4
+5	4	2	6	75.0	2	1	3	12	2	464	16	18	0
+6	4	1	6.5	100.0	1	1	5	14	1	557	23	26	1
+4	6	1	4.5	100.0	3	0	8	11	2	535	20	21	2
+5	2	4	7	75.0	2	2	3	14	1	497	15	10	2
+2	5	4	4	75.0	0	2	3	13	3	453	10	20	2
+2	8	1	2.5	0.0	1	0	7	12	1	378	7	22	0
+8	2	1	8.5	60.0	4	1	7	14	3	584	33	18	2
+Gameweek 34
+(Fri Apr 22, 2022 - Thu Apr 28, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Sjeeterboys
+Nimma Koempels
+Athletic de Bapao
+Poor Man's Pirlo
+SSC Fugazi
+BarcelOna '53
+Mövenpickje FC
+Klimmania
+NOAD Athletic
+Redford United
+2	7	2	3	80.0	0	1	2	8	2	337	20	11	1
+7	2	2	8	100.0	1	0	5	16	2	532	20	29	3
+3	7	1	3.5	80.0	0	0	2	16	4	396	9	25	1
+7	3	1	7.5	100.0	4	1	10	5	2	405	12	19	1
+4	7	0	4	100.0	2	1	4	6	2	531	8	11	0
+7	4	0	7	-	1	3	8	10	3	537	23	34	2
+7	3	1	7.5	50.0	1	0	5	10	1	194	11	22	1
+3	7	1	3.5	80.0	0	1	2	5	1	261	9	18	2
+0	9	2	1	100.0	0	0	0	1	1	258	3	11	6
+9	0	2	10	100.0	2	1	4	10	1	439	20	12	3
+Gameweek 35
+(Fri Apr 29, 2022 - Thu May 5, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Poor Man's Pirlo
+Sjeeterboys
+BarcelOna '53
+Nimma Koempels
+Klimmania
+Athletic de Bapao
+Redford United
+SSC Fugazi
+NOAD Athletic
+Mövenpickje FC
+10	1	0	10	100.0	3	1	7	4	2	358	21	24	1
+1	10	0	1	75.0	0	0	1	7	0	181	13	13	2
+1	9	1	1.5	50.0	1	0	2	2	0	242	14	9	3
+9	1	1	9.5	100.0	2	0	6	13	1	438	8	17	2
+4	6	1	4.5	71.4	0	2	1	6	2	236	1	11	0
+6	4	1	6.5	66.7	2	2	9	12	0	173	19	16	1
+6	5	0	6	100.0	2	0	8	10	1	402	23	15	3
+5	6	0	5	66.7	1	1	3	11	3	449	15	11	0
+1	9	1	1.5	50.0	1	0	5	6	1	309	9	12	2
+9	1	1	9.5	100.0	4	1	6	12	1	258	10	13	1
+Playoffs - Round 1
+(Fri May 6, 2022 - Thu May 12, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Poor Man's Pirlo
+None/Bye
+BarcelOna '53
+None/Bye
+Redford United
+None/Bye
+Nimma Koempels
+None/Bye
+10	0	1	10.5	71.4	5	2	16	6	0	618	28	36	1
+-	-	-	-	-	-	-	-	-	-
+11	0	0	11	100.0	6	1	11	11	1	506	15	19	3
+-	-	-	-	-	-	-	-	-	-
+11	0	0	11	100.0	2	1	5	4	2	604	16	16	3
+-	-	-	-	-	-	-	-	-	-
+10	0	1	10.5	50.0	2	0	6	9	1	381	10	16	1
+-	-	-	-	-	-	-	-	-	-
+Playoffs - Round 2
+(Fri May 13, 2022 - Thu May 19, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Poor Man's Pirlo
+Nimma Koempels
+BarcelOna '53
+Redford United
+4	4	3	5.5	50.0	3	3	8	4	0	297	17	19	0
+4	4	3	5.5	60.0	3	0	7	13	0	444	15	29	4
+5	2	4	7	60.0	1	2	6	10	0	451	11	17	3
+2	5	4	4	75.0	1	0	3	1	0	407	16	12	3
+Playoffs - Round 3
+(Fri May 20, 2022 - Sun May 22, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Poor Man's Pirlo
+BarcelOna '53
+7	4	0	7	80.0	5	3	10	5	1	323	7	11	0
+4	7	0	4	66.7	2	2	5	10	0	350	22	19	2
+Gameweek: Playoffs 3
+(Fri May 20, 2022 - Sun May 22, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Athletic de Bapao
+Klimmania
+4	7	0	4	80.0	2	1	5	10	1	322	20	15	1
+7	4	0	7	57.1	3	3	6	4	0	336	11	16	0
+Gameweek: Playoffs 3
+(Fri May 20, 2022 - Sun May 22, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Redford United
+Nimma Koempels
+5	3	3	6.5	50.0	2	1	3	7	0	347	8	17	2
+3	5	3	4.5	66.7	0	0	4	9	0	281	8	13	2
+Gameweek: Playoffs 2
+(Fri May 13, 2022 - Thu May 19, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Mövenpickje FC
+Sjeeterboys
+5	3	3	6.5	0.0	2	0	7	15	0	547	26	26	3
+3	5	3	4.5	0.0	2	2	6	9	1	327	19	11	1
+Gameweek: Playoffs 3
+(Fri May 20, 2022 - Sun May 22, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+NOAD Athletic
+SSC Fugazi
+4	4	3	5.5	-	2	1	6	11	0	354	17	20	0
+4	4	3	5.5	100.0	3	1	10	11	0	330	11	13	1
+Gameweek: Playoffs 2
+(Fri May 13, 2022 - Thu May 19, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+NOAD Athletic
+Athletic de Bapao
+SSC Fugazi
+Klimmania
+8	3	0	8	100.0	4	0	6	12	0	380	31	17	2
+3	8	0	3	-	2	3	5	10	3	303	11	16	0
+5	3	3	6.5	-	2	2	11	10	0	414	14	25	0
+3	5	3	4.5	77.8	3	2	7	7	0	345	9	23	0
+Gameweek: Playoffs 1
+(Fri May 6, 2022 - Thu May 12, 2022)
+Team	W	L	T	Pts	Sv%	G	A	SOT	TkW	CSD	AP	AER	CoSF	DPt2
+Athletic de Bapao
+None/Bye
+NOAD Athletic
+Mövenpickje FC
+Klimmania
+Sjeeterboys
+SSC Fugazi
+None/Bye
+11	0	0	11	36.4	3	3	7	12	1	488	10	35	4
+-	-	-	-	-	-	-	-	-	-
+6	4	1	6.5	77.8	0	1	1	9	2	650	13	28	0
+4	6	1	4.5	83.3	2	0	7	7	1	385	12	28	2
+8	2	1	8.5	100.0	3	1	13	16	2	677	16	29	1
+2	8	1	2.5	50.0	2	3	6	11	2	459	17	20	4
+9	0	2	10	-	2	1	7	9	0	491	21	29	1
+-	-	-	-	-	-	-	-	-	-
