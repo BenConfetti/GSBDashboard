@@ -12,3 +12,4 @@ raw/**/*.tmp
 exports/**/*.tmp
 
 database/*.db
+!database/fantrax_deploy.db

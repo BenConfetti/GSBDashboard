@@ -12,7 +12,7 @@ import streamlit as st
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-DEFAULT_DB_PATH = BASE_DIR / "database" / "fantrax_v2.db"
+DEFAULT_DB_PATH = BASE_DIR / "database" / "fantrax_deploy.db"
 IGNORED_STATS = {"BR", "INT", "A", "GA"}
 DISPLAY_LABELS = {
     "player_name": "Player",
