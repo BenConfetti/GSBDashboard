@@ -3876,7 +3876,7 @@ def render_overview(db_path: str) -> None:
                     unsafe_allow_html=True,
                 )
             with summary_cols[1]:
-                category_label = f"{format_decimal_text(cats_for, 1)}"
+                category_label = strip_trailing_zero_text(cats_for, 1)
                 st.markdown(
                     f"""
                     <div class="journeyman-card">
@@ -3892,7 +3892,7 @@ def render_overview(db_path: str) -> None:
                 opponent_wins = losses
                 opponent_draws = draws
                 opponent_losses = wins
-                opponent_category_label = f"{format_decimal_text(cats_against, 1)}"
+                opponent_category_label = strip_trailing_zero_text(cats_against, 1)
                 st.markdown(
                     f"""
                     <div class="journeyman-card">
@@ -3928,8 +3928,8 @@ def render_overview(db_path: str) -> None:
             h2h_log["winner"] = team_a_rows.apply(matchup_winner, axis=1)
             h2h_log["league_points"] = team_a_rows["win"] * 3 + team_a_rows["draw"]
             h2h_log["opponent_league_points"] = team_a_rows["loss"] * 3 + team_a_rows["draw"]
-            h2h_log["categories_won"] = team_a_rows["matchup_points_for"].round(1)
-            h2h_log["categories_lost"] = team_a_rows["matchup_points_against"].round(1)
+            h2h_log["categories_won"] = team_a_rows["matchup_points_for"].map(lambda value: strip_trailing_zero_text(value, 1))
+            h2h_log["categories_lost"] = team_a_rows["matchup_points_against"].map(lambda value: strip_trailing_zero_text(value, 1))
             h2h_log = h2h_log[
                 [
                     "season_slug",
