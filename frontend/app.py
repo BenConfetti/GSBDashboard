@@ -3943,8 +3943,9 @@ def render_overview(db_path: str) -> None:
                     "categories_lost",
                 ]
             ].copy()
+            h2h_log_display = format_columns(h2h_log)
             st.dataframe(
-                style_team_columns(pretty_df(h2h_log), ["Fantrax team", "Opponent", "Winner"]),
+                style_team_columns(h2h_log_display, ["Fantrax team", "Opponent", "Winner"]),
                 width="stretch",
                 hide_index=True,
             )
