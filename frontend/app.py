@@ -3846,24 +3846,24 @@ def render_overview(db_path: str) -> None:
             losses = int(team_a_rows["loss"].sum())
             league_points = int((team_a_rows["win"] * 3 + team_a_rows["draw"]).sum())
             opponent_league_points = int((team_a_rows["loss"] * 3 + team_a_rows["draw"]).sum())
-            cats_for = float(team_a_rows["category_wins_for"].sum())
-            cats_against = float(team_a_rows["category_wins_against"].sum())
+            cats_for = float(team_a_rows["matchup_points_for"].sum())
+            cats_against = float(team_a_rows["matchup_points_against"].sum())
             pts_for = float(team_a_rows["matchup_points_for"].sum())
             pts_against = float(team_a_rows["matchup_points_against"].sum())
 
-            a_tuple = (league_points, cats_for - cats_against, pts_for - pts_against)
-            b_tuple = (opponent_league_points, cats_against - cats_for, pts_against - pts_for)
+            a_tuple = (league_points, cats_for)
+            b_tuple = (opponent_league_points, cats_against)
             if a_tuple > b_tuple:
                 verdict_team = team_a
-                verdict_text = f"{team_a} komt er op basis van onderlinge league points (3/1/0) het beste uit."
+                verdict_text = f"{team_a} wint deze tiebreaker."
             elif b_tuple > a_tuple:
                 verdict_team = team_b
-                verdict_text = f"{team_b} komt er op basis van onderlinge league points (3/1/0) het beste uit."
+                verdict_text = f"{team_b} wint deze tiebreaker."
             else:
-                verdict_team = "Nog gelijk"
-                verdict_text = "Deze teams staan op basis van onderlinge league points (3/1/0) nog steeds gelijk."
+                verdict_team = "Onbeslist"
+                verdict_text = "Deze tiebreaker is onbeslist."
 
-            summary_cols = st.columns([1.1, 1, 1])
+            summary_cols = st.columns([1.2, 1, 1])
             with summary_cols[0]:
                 st.markdown(
                     f"""
@@ -3876,28 +3876,41 @@ def render_overview(db_path: str) -> None:
                     unsafe_allow_html=True,
                 )
             with summary_cols[1]:
+                category_label = f"{format_decimal_text(cats_for, 1)}"
                 st.markdown(
                     f"""
                     <div class="journeyman-card">
                         <div class="journeyman-meta">{team_a}</div>
                         <div class="journeyman-title">{wins}-{draws}-{losses}</div>
                         <div>League points: {league_points}</div>
-                        <div>Categories: {strip_trailing_zero_text(cats_for)}-{strip_trailing_zero_text(cats_against)}</div>
+                        <div>Categories: {category_label}</div>
                     </div>
                     """,
                     unsafe_allow_html=True,
                 )
             with summary_cols[2]:
+                opponent_wins = losses
+                opponent_draws = draws
+                opponent_losses = wins
+                opponent_category_label = f"{format_decimal_text(cats_against, 1)}"
                 st.markdown(
                     f"""
                     <div class="journeyman-card">
-                        <div class="journeyman-meta">Underlying edge</div>
-                        <div class="journeyman-title">{strip_trailing_zero_text(pts_for)}-{strip_trailing_zero_text(pts_against)}</div>
-                        <div>Matchup points for {team_a} in {selected_tiebreak_season}</div>
+                        <div class="journeyman-meta">{team_b}</div>
+                        <div class="journeyman-title">{opponent_wins}-{opponent_draws}-{opponent_losses}</div>
+                        <div>League points: {opponent_league_points}</div>
+                        <div>Categories: {opponent_category_label}</div>
                     </div>
                     """,
                     unsafe_allow_html=True,
                 )
+
+            def matchup_winner(row: pd.Series) -> str:
+                if float(row["matchup_points_for"]) > float(row["matchup_points_against"]):
+                    return str(row["fantrax_team_name"])
+                if float(row["matchup_points_for"]) < float(row["matchup_points_against"]):
+                    return str(row["opponent_name"])
+                return "Draw"
 
             h2h_log = team_a_rows[
                 [
@@ -3905,14 +3918,33 @@ def render_overview(db_path: str) -> None:
                     "gameweek",
                     "fantrax_team_name",
                     "opponent_name",
+                    "win",
+                    "draw",
+                    "loss",
                     "matchup_points_for",
                     "matchup_points_against",
-                    "category_wins_for",
-                    "category_wins_against",
+                ]
+            ].copy()
+            h2h_log["winner"] = team_a_rows.apply(matchup_winner, axis=1)
+            h2h_log["league_points"] = team_a_rows["win"] * 3 + team_a_rows["draw"]
+            h2h_log["opponent_league_points"] = team_a_rows["loss"] * 3 + team_a_rows["draw"]
+            h2h_log["categories_won"] = team_a_rows["matchup_points_for"].round(1)
+            h2h_log["categories_lost"] = team_a_rows["matchup_points_against"].round(1)
+            h2h_log = h2h_log[
+                [
+                    "season_slug",
+                    "gameweek",
+                    "fantrax_team_name",
+                    "opponent_name",
+                    "winner",
+                    "league_points",
+                    "opponent_league_points",
+                    "categories_won",
+                    "categories_lost",
                 ]
             ].copy()
             st.dataframe(
-                style_team_columns(pretty_df(h2h_log), ["Fantrax team", "Opponent"]),
+                style_team_columns(pretty_df(h2h_log), ["Fantrax team", "Opponent", "Winner"]),
                 width="stretch",
                 hide_index=True,
             )
