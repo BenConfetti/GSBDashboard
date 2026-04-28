@@ -961,7 +961,7 @@ def render_radar_chart(rose_df: pd.DataFrame, title: str) -> None:
     ax.fill(angles, values, color="#2a9d8f", alpha=0.35)
     ax.grid(color="#b7b0a2", alpha=0.55)
     ax.set_title(title, y=1.08, fontsize=13)
-    st.pyplot(fig, use_container_width=True)
+    st.pyplot(fig, width="stretch")
     plt.close(fig)
 
 
@@ -998,7 +998,7 @@ def render_grouped_quality_chart(quality_df: pd.DataFrame) -> None:
     ax.bar_label(drafted_bars, padding=3, fmt="%.1f", fontsize=9)
     ax.bar_label(claimed_bars, padding=3, fmt="%.1f", fontsize=9)
     fig.tight_layout()
-    st.pyplot(fig, use_container_width=True)
+    st.pyplot(fig, width="stretch")
     plt.close(fig)
 
 
@@ -1038,7 +1038,7 @@ def render_ownership_timeline_matplotlib(ownership_df: pd.DataFrame) -> None:
         legend_handles.append(plt.Rectangle((0, 0), 1, 1, color=team_color(team), label=team))
     ax.legend(handles=legend_handles, title="Fantrax team", frameon=False, bbox_to_anchor=(1.01, 1), loc="upper left")
     fig.tight_layout()
-    st.pyplot(fig, use_container_width=True)
+    st.pyplot(fig, width="stretch")
     plt.close(fig)
 
 
@@ -1367,7 +1367,7 @@ def render_all_time_standings(db_path: str) -> None:
         if column in df.columns:
             df[column] = df[column].round(0).astype("Int64")
     display_df = pretty_df(df)
-    st.dataframe(style_team_columns(display_df, ["Team"]), use_container_width=True, hide_index=True)
+    st.dataframe(style_team_columns(display_df, ["Team"]), width="stretch", hide_index=True)
 
 
 def build_team_options(base_df: pd.DataFrame) -> list[str]:
@@ -1623,7 +1623,7 @@ def render_stat_explorer(db_path: str) -> None:
     if "stat_value" in display_df.columns:
         display_df = display_df.rename(columns={"stat_value": stat_key})
     display_df = pretty_df(display_df)
-    st.dataframe(display_df, use_container_width=True, hide_index=True)
+    st.dataframe(display_df, width="stretch", hide_index=True)
 
 
 def render_ranking_history(db_path: str) -> None:
@@ -1741,9 +1741,9 @@ def render_ranking_history(db_path: str) -> None:
     )
     top, bottom = st.tabs(["Ranking", "Points"])
     with top:
-        st.altair_chart(rank_chart, use_container_width=True)
+        st.altair_chart(rank_chart, width="stretch")
     with bottom:
-        st.altair_chart(points_chart, use_container_width=True)
+        st.altair_chart(points_chart, width="stretch")
 
 
 def build_team_roster_table(base_df: pd.DataFrame, stats_df: pd.DataFrame, selected_team: str) -> pd.DataFrame:
@@ -1855,7 +1855,7 @@ def render_team_roster_section(
         roster_df = roster_df.sort_values(sort_column, ascending=ascending, na_position="last")
 
     roster_display = roster_df.drop(columns=["player_id"], errors="ignore")
-    st.dataframe(pretty_df(roster_display), use_container_width=True, hide_index=True)
+    st.dataframe(pretty_df(roster_display), width="stretch", hide_index=True)
 
     formation_name = st.selectbox(
         "Formatie",
@@ -2093,7 +2093,7 @@ def render_head_to_head(db_path: str) -> None:
         .rename(columns={"fantrax_team_name": "team_name"})
     )
     st.markdown("#### All teams head-to-head")
-    st.dataframe(format_columns(matrix), use_container_width=True, hide_index=True)
+    st.dataframe(format_columns(matrix), width="stretch", hide_index=True)
 
     team_cols = st.columns(3)
     with team_cols[0]:
@@ -2228,7 +2228,7 @@ def render_head_to_head(db_path: str) -> None:
         )
 
     st.markdown("#### Matchup log")
-    st.dataframe(pretty_df(summary_df), use_container_width=True, hide_index=True)
+    st.dataframe(pretty_df(summary_df), width="stretch", hide_index=True)
 
     fear_df = overview_df.groupby(["fantrax_team_name", "opponent_name"], dropna=False).agg(
         wins=("win", "sum"),
@@ -2252,7 +2252,7 @@ def render_head_to_head(db_path: str) -> None:
             ),
             ["Fantrax team", "Opponent"],
         ),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -2311,7 +2311,7 @@ def render_head_to_head(db_path: str) -> None:
             display_columns = [col for col in preferred_columns if col in roster_df.columns] + remaining_columns
             st.dataframe(
                 pretty_df(roster_df[display_columns]),
-                use_container_width=True,
+                width="stretch",
                 hide_index=True,
             )
 
@@ -2376,7 +2376,7 @@ def render_player_by_team(db_path: str) -> None:
         metric_card("Best avg score", str(strip_trailing_zero_text(best_avg_score)))
 
     styled = pretty_df(summary)
-    st.dataframe(style_team_columns(styled, ["Fantrax team"]), use_container_width=True, hide_index=True)
+    st.dataframe(style_team_columns(styled, ["Fantrax team"]), width="stretch", hide_index=True)
 
 
 def render_transactions(db_path: str) -> None:
@@ -2468,7 +2468,7 @@ def render_transactions(db_path: str) -> None:
         .sort_values(["season_slug", "gameweek"])
     )
     st.markdown("#### Transactions by GW")
-    st.dataframe(pretty_df(gw_summary), use_container_width=True, hide_index=True)
+    st.dataframe(pretty_df(gw_summary), width="stretch", hide_index=True)
 
     if not gw_summary.empty:
         chart_df = gw_summary.copy()
@@ -2487,7 +2487,7 @@ def render_transactions(db_path: str) -> None:
             .properties(height=280)
         )
         st.markdown("#### Gemiddeld bod per GW")
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
 
     team_summary = (
         filtered.groupby("fantrax_team_name", dropna=False)
@@ -2503,7 +2503,7 @@ def render_transactions(db_path: str) -> None:
     st.markdown("#### Team activity")
     st.dataframe(
         style_team_columns(pretty_df(team_summary), ["Fantrax team"]),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -2528,14 +2528,14 @@ def render_transactions(db_path: str) -> None:
         )
         .properties(height=260)
     )
-    st.altair_chart(pos_chart, use_container_width=True)
+    st.altair_chart(pos_chart, width="stretch")
     position_summary["avg_bid"] = position_summary["avg_bid"].map(lambda value: format_decimal_text(value, 1))
-    st.dataframe(pretty_df(position_summary), use_container_width=True, hide_index=True)
+    st.dataframe(pretty_df(position_summary), width="stretch", hide_index=True)
 
     st.markdown("#### Transaction log")
     st.dataframe(
         style_team_columns(pretty_df(filtered.sort_values(["season_slug", "gameweek", "transaction_datetime_text"])), ["Fantrax team"]),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -2649,7 +2649,7 @@ def render_team_profile(db_path: str) -> None:
         ["representation_index", "players", "gameweeks_played"],
         ascending=[False, False, False],
     )
-    st.dataframe(pretty_df(pl_team_footprint), use_container_width=True, hide_index=True)
+    st.dataframe(pretty_df(pl_team_footprint), width="stretch", hide_index=True)
 
     chart_cols = st.columns([1.2, 1])
     with chart_cols[0]:
@@ -2680,7 +2680,7 @@ def render_team_profile(db_path: str) -> None:
                 )
                 .properties(height=300)
             )
-            st.altair_chart(chart, use_container_width=True)
+            st.altair_chart(chart, width="stretch")
 
     with chart_cols[1]:
         st.markdown("#### Positional profile")
@@ -2710,7 +2710,7 @@ def render_team_profile(db_path: str) -> None:
                 )
                 .properties(height=300)
             )
-            st.altair_chart(pie, use_container_width=True)
+            st.altair_chart(pie, width="stretch")
 
     lower_cols = st.columns(2)
     with lower_cols[0]:
@@ -2734,7 +2734,7 @@ def render_team_profile(db_path: str) -> None:
                 ]
             ].copy()
             draft_view = draft_view.sort_values(["season_slug", "overall_pick"], ascending=[True, True], na_position="last")
-            st.dataframe(pretty_df(draft_view), use_container_width=True, hide_index=True)
+            st.dataframe(pretty_df(draft_view), width="stretch", hide_index=True)
 
     with lower_cols[1]:
         st.markdown("#### Transaction mix")
@@ -2776,8 +2776,8 @@ def render_team_profile(db_path: str) -> None:
                 )
                 .properties(height=280)
             )
-            st.altair_chart(pos_chart, use_container_width=True)
-            st.dataframe(pretty_df(mix), use_container_width=True, hide_index=True)
+            st.altair_chart(pos_chart, width="stretch")
+            st.dataframe(pretty_df(mix), width="stretch", hide_index=True)
 
     st.markdown("#### Angstgegner")
     if fear_summary.empty:
@@ -2803,7 +2803,7 @@ def render_team_profile(db_path: str) -> None:
         )
         st.dataframe(
             style_team_columns(pretty_df(fear_display), ["Opponent"]),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 
@@ -2993,9 +2993,9 @@ def render_player_card(db_path: str) -> None:
     left, right = st.columns(2)
     with left:
         st.markdown("#### Production by season")
-        st.dataframe(style_team_columns(pretty_df(season_summary), ["Fantrax teams"]), use_container_width=True, hide_index=True)
+        st.dataframe(style_team_columns(pretty_df(season_summary), ["Fantrax teams"]), width="stretch", hide_index=True)
         st.markdown("#### Best gameweeks")
-        st.dataframe(style_team_columns(pretty_df(best_gameweeks), ["Fantrax team", "Opponent"]), use_container_width=True, hide_index=True)
+        st.dataframe(style_team_columns(pretty_df(best_gameweeks), ["Fantrax team", "Opponent"]), width="stretch", hide_index=True)
 
     with right:
         st.markdown("#### Ownership history")
@@ -3029,11 +3029,11 @@ def render_player_card(db_path: str) -> None:
             )
             .properties(height=320)
         )
-        st.altair_chart(timeline_chart, use_container_width=True)
+        st.altair_chart(timeline_chart, width="stretch")
         ownership_display = ownership[
             ["fantrax_team_name", "gameweeks_played", "avg_score", "first_gw", "last_gw"]
         ].copy()
-        st.dataframe(style_team_columns(pretty_df(ownership_display), ["Fantrax team"]), use_container_width=True, hide_index=True)
+        st.dataframe(style_team_columns(pretty_df(ownership_display), ["Fantrax team"]), width="stretch", hide_index=True)
         st.markdown("#### Best opponents")
         best_opponents_display = versus_teams.head(12).rename(
             columns={
@@ -3043,7 +3043,7 @@ def render_player_card(db_path: str) -> None:
                 "matchup_points_against": "matchup points against",
             }
         )
-        st.dataframe(style_team_columns(pretty_df(best_opponents_display), ["Opponent"]), use_container_width=True, hide_index=True)
+        st.dataframe(style_team_columns(pretty_df(best_opponents_display), ["Opponent"]), width="stretch", hide_index=True)
 
     if not stat_totals.empty:
         st.markdown("#### Career stat totals")
@@ -3143,7 +3143,7 @@ def render_player_card(db_path: str) -> None:
                 ax.set_yticklabels(["20", "40", "60", "80", "100"], fontsize=7)
                 ax.grid(color="#b7b0a2", alpha=0.5)
                 ax.legend(loc="upper right", bbox_to_anchor=(1.25, 1.15), frameon=False)
-                st.pyplot(fig, use_container_width=False)
+                st.pyplot(fig, width="content")
                 plt.close(fig)
         else:
             st.info("Roosdiagram beschikbaar vanaf minimaal 30 gespeelde gameweeks voor deze speler.")
@@ -3227,11 +3227,11 @@ def render_trade_lab(db_path: str) -> None:
 
     st.caption("Post-trade score = gemiddelde Fantrax score per gameweek die een speler nog produceerde voor het ontvangende team vanaf die trade-GW. GW's ná trade = aantal gameweeks waarin die speler daarna voor dat team speelde.")
     st.markdown("#### Acquired value by team")
-    st.dataframe(style_team_columns(pretty_df(summary), ["To team"]), use_container_width=True, hide_index=True)
+    st.dataframe(style_team_columns(pretty_df(summary), ["To team"]), width="stretch", hide_index=True)
     st.markdown("#### Best traded assets")
-    st.dataframe(style_team_columns(pretty_df(trade_impact.head(30)), ["From team", "To team"]), use_container_width=True, hide_index=True)
+    st.dataframe(style_team_columns(pretty_df(trade_impact.head(30)), ["From team", "To team"]), width="stretch", hide_index=True)
     st.markdown("#### Chronological trade log")
-    st.dataframe(style_team_columns(pretty_df(trade_log), ["From team", "To team"]), use_container_width=True, hide_index=True)
+    st.dataframe(style_team_columns(pretty_df(trade_log), ["From team", "To team"]), width="stretch", hide_index=True)
 
 
 def render_waiver_lab(db_path: str) -> None:
@@ -3323,14 +3323,14 @@ def render_waiver_lab(db_path: str) -> None:
     with left:
         st.markdown("#### Best average score after claim")
         best_value = waiver_df[waiver_df["gws_after_claim"] >= 10].sort_values(["post_claim_score", "gws_after_claim"], ascending=[False, False]).head(25)
-        st.dataframe(style_team_columns(pretty_df(best_value), ["Fantrax team"]), use_container_width=True, hide_index=True)
+        st.dataframe(style_team_columns(pretty_df(best_value), ["Fantrax team"]), width="stretch", hide_index=True)
     with right:
         st.markdown("#### Most expensive claims")
         expensive = waiver_df.sort_values(["bid_amount", "post_claim_score"], ascending=[False, False]).head(25)
-        st.dataframe(style_team_columns(pretty_df(expensive), ["Fantrax team"]), use_container_width=True, hide_index=True)
+        st.dataframe(style_team_columns(pretty_df(expensive), ["Fantrax team"]), width="stretch", hide_index=True)
 
     st.markdown("#### Waiver leaderboard")
-    st.dataframe(style_team_columns(pretty_df(leaderboard), ["Fantrax team"]), use_container_width=True, hide_index=True)
+    st.dataframe(style_team_columns(pretty_df(leaderboard), ["Fantrax team"]), width="stretch", hide_index=True)
 
 
 def render_records(db_path: str) -> None:
@@ -3494,7 +3494,7 @@ def render_records(db_path: str) -> None:
                 )
                 st.dataframe(
                     style_team_columns(pretty_df(detail), ["Fantrax team", "Opponent"]),
-                    use_container_width=True,
+                    width="stretch",
                     hide_index=True,
                 )
                 lineup_cols = st.columns(2)
@@ -3526,12 +3526,12 @@ def render_records(db_path: str) -> None:
                     st.markdown(f"##### {row.fantrax_team_name}")
                     team_a_roster = build_team_roster_table(team_a_base, team_a_stats, row.fantrax_team_name)
                     if not team_a_roster.empty:
-                        st.dataframe(pretty_df(team_a_roster), use_container_width=True, hide_index=True)
+                        st.dataframe(pretty_df(team_a_roster), width="stretch", hide_index=True)
                 with lineup_cols[1]:
                     st.markdown(f"##### {row.opponent_name}")
                     team_b_roster = build_team_roster_table(team_b_base, team_b_stats, row.opponent_name)
                     if not team_b_roster.empty:
-                        st.dataframe(pretty_df(team_b_roster), use_container_width=True, hide_index=True)
+                        st.dataframe(pretty_df(team_b_roster), width="stretch", hide_index=True)
     with tabs[1]:
         st.markdown("#### Top 5 per stat")
         stat_blocks = sorted(top5_by_stat["stat_key"].dropna().unique().tolist())
@@ -3552,7 +3552,7 @@ def render_records(db_path: str) -> None:
                 ]
                 st.dataframe(
                     style_team_columns(pretty_df(block), ["Fantrax team", "Opponent"]),
-                    use_container_width=True,
+                    width="stretch",
                     hide_index=True,
                 )
     with tabs[2]:
@@ -3573,7 +3573,7 @@ def render_records(db_path: str) -> None:
                 ].sort_values("stat_value", ascending=False)
                 st.dataframe(
                     style_team_columns(pretty_df(contributors), ["Opponent"]),
-                    use_container_width=True,
+                    width="stretch",
                     hide_index=True,
                 )
     with tabs[3]:
@@ -3615,15 +3615,15 @@ def render_records(db_path: str) -> None:
             best_xi_table = xi_eligible[
                 ["player_name", "positions", "premier_league_teams", "gameweeks_played", "avg_score", "score_percentile"]
             ].copy()
-            st.dataframe(pretty_df(best_xi_table.head(25)), use_container_width=True, hide_index=True)
+            st.dataframe(pretty_df(best_xi_table.head(25)), width="stretch", hide_index=True)
     with tabs[4]:
         sub_tabs = st.tabs(["Most paid bids", "Most zero-euro claims", "Highest bids"])
         with sub_tabs[0]:
-            st.dataframe(style_team_columns(pretty_df(transaction_top_paid_bids), ["Fantrax team"]), use_container_width=True, hide_index=True)
+            st.dataframe(style_team_columns(pretty_df(transaction_top_paid_bids), ["Fantrax team"]), width="stretch", hide_index=True)
         with sub_tabs[1]:
-            st.dataframe(style_team_columns(pretty_df(transaction_zero_claims), ["Fantrax team"]), use_container_width=True, hide_index=True)
+            st.dataframe(style_team_columns(pretty_df(transaction_zero_claims), ["Fantrax team"]), width="stretch", hide_index=True)
         with sub_tabs[2]:
-            st.dataframe(style_team_columns(pretty_df(highest_bids), ["Fantrax team"]), use_container_width=True, hide_index=True)
+            st.dataframe(style_team_columns(pretty_df(highest_bids), ["Fantrax team"]), width="stretch", hide_index=True)
     with tabs[5]:
         st.caption("Draft value = draftpositie minus eindrang op seizoensscore. Hoe hoger dit getal, hoe later iemand gedraft werd ten opzichte van hoe goed zijn seizoen uiteindelijk was.")
         draft_display = draft_records[
@@ -3641,7 +3641,7 @@ def render_records(db_path: str) -> None:
                 "dropped_in_gw",
             ]
         ].copy()
-        st.dataframe(style_team_columns(pretty_df(draft_display), ["Fantrax team"]), use_container_width=True, hide_index=True)
+        st.dataframe(style_team_columns(pretty_df(draft_display), ["Fantrax team"]), width="stretch", hide_index=True)
     with tabs[6]:
         streak_tabs = st.tabs(
             [
@@ -3680,7 +3680,7 @@ def render_records(db_path: str) -> None:
                             ),
                             ["Fantrax team"],
                         ),
-                        use_container_width=True,
+                        width="stretch",
                         hide_index=True,
                     )
         else:
@@ -3713,7 +3713,7 @@ def render_records(db_path: str) -> None:
                             ),
                             ["Fantrax team"],
                         ),
-                        use_container_width=True,
+                        width="stretch",
                         hide_index=True,
                     )
         with streak_tabs[5]:
@@ -3742,7 +3742,7 @@ def render_records(db_path: str) -> None:
                             ),
                             ["Fantrax team"],
                         ),
-                        use_container_width=True,
+                        width="stretch",
                         hide_index=True,
                     )
 
@@ -3785,12 +3785,137 @@ def render_draft_history(db_path: str) -> None:
     ]
     st.caption("Draft value = draftpositie minus eindrang op seizoensscore. Een hogere waarde betekent dus meer surplus ten opzichte van waar iemand gekozen werd.")
     st.markdown("#### Draft board")
-    st.dataframe(style_team_columns(pretty_df(draft_board), ["Fantrax team"]), use_container_width=True, hide_index=True)
+    st.dataframe(style_team_columns(pretty_df(draft_board), ["Fantrax team"]), width="stretch", hide_index=True)
 
 
 def render_overview(db_path: str) -> None:
     st.subheader("Overview")
     st.caption("Snelle startpagina met links naar de tabjes en 10 willekeurige recordspotlights.")
+
+    st.markdown("#### Play-off tiebreaker")
+    matchup_df = load_matchup_results_df(db_path)
+    regular_matchups = matchup_df[matchup_df["is_playoff"] == 0].copy() if "is_playoff" in matchup_df.columns else matchup_df.copy()
+    available_seasons = sorted(regular_matchups["season_slug"].dropna().unique().tolist()) if not regular_matchups.empty else []
+    if available_seasons:
+        tie_cols = st.columns(3)
+        default_season_index = len(available_seasons) - 1
+        with tie_cols[0]:
+            selected_tiebreak_season = st.selectbox(
+                "Season",
+                available_seasons,
+                index=default_season_index,
+                key="overview_tiebreak_season",
+            )
+        season_matchups = regular_matchups[regular_matchups["season_slug"] == selected_tiebreak_season].copy()
+        season_teams = sorted(
+            team
+            for team in season_matchups["fantrax_team_name"].dropna().unique().tolist()
+            if team not in {"None/Bye", "FA", "UNKNOWN"}
+        )
+        default_team_a = season_teams.index("Poor Man's Pirlo") if "Poor Man's Pirlo" in season_teams else 0
+        default_team_b = season_teams.index("Mövenpickje FC") if "Mövenpickje FC" in season_teams else min(1, max(len(season_teams) - 1, 0))
+        with tie_cols[1]:
+            team_a = st.selectbox("Team A", season_teams, index=default_team_a, key="overview_tiebreak_team_a")
+        team_b_options = [team for team in season_teams if team != team_a]
+        with tie_cols[2]:
+            if not team_b_options:
+                team_b = team_a
+            else:
+                safe_team_b_index = team_b_options.index("Mövenpickje FC") if "Mövenpickje FC" in team_b_options else min(default_team_b, len(team_b_options) - 1)
+                team_b = st.selectbox("Team B", team_b_options, index=safe_team_b_index, key="overview_tiebreak_team_b")
+
+        h2h = season_matchups[
+            (
+                (season_matchups["fantrax_team_name"] == team_a)
+                & (season_matchups["opponent_name"] == team_b)
+            )
+            | (
+                (season_matchups["fantrax_team_name"] == team_b)
+                & (season_matchups["opponent_name"] == team_a)
+            )
+        ].copy()
+        team_a_rows = h2h[h2h["fantrax_team_name"] == team_a].copy()
+        if team_a_rows.empty:
+            st.info("Deze teams hebben in dit regular season nog geen onderlinge matchup gespeeld.")
+        else:
+            team_a_rows["win"] = (team_a_rows["matchup_points_for"] > team_a_rows["matchup_points_against"]).astype(int)
+            team_a_rows["draw"] = (team_a_rows["matchup_points_for"] == team_a_rows["matchup_points_against"]).astype(int)
+            team_a_rows["loss"] = (team_a_rows["matchup_points_for"] < team_a_rows["matchup_points_against"]).astype(int)
+            wins = int(team_a_rows["win"].sum())
+            draws = int(team_a_rows["draw"].sum())
+            losses = int(team_a_rows["loss"].sum())
+            league_points = int((team_a_rows["win"] * 3 + team_a_rows["draw"]).sum())
+            opponent_league_points = int((team_a_rows["loss"] * 3 + team_a_rows["draw"]).sum())
+            cats_for = float(team_a_rows["category_wins_for"].sum())
+            cats_against = float(team_a_rows["category_wins_against"].sum())
+            pts_for = float(team_a_rows["matchup_points_for"].sum())
+            pts_against = float(team_a_rows["matchup_points_against"].sum())
+
+            a_tuple = (league_points, cats_for - cats_against, pts_for - pts_against)
+            b_tuple = (opponent_league_points, cats_against - cats_for, pts_against - pts_for)
+            if a_tuple > b_tuple:
+                verdict_team = team_a
+                verdict_text = f"{team_a} komt er op basis van onderlinge league points (3/1/0) het beste uit."
+            elif b_tuple > a_tuple:
+                verdict_team = team_b
+                verdict_text = f"{team_b} komt er op basis van onderlinge league points (3/1/0) het beste uit."
+            else:
+                verdict_team = "Nog gelijk"
+                verdict_text = "Deze teams staan op basis van onderlinge league points (3/1/0) nog steeds gelijk."
+
+            summary_cols = st.columns([1.1, 1, 1])
+            with summary_cols[0]:
+                st.markdown(
+                    f"""
+                    <div class="journeyman-card">
+                        <div class="journeyman-meta">Tiebreak verdict</div>
+                        <div class="journeyman-title">{verdict_team}</div>
+                        <div>{verdict_text}</div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+            with summary_cols[1]:
+                st.markdown(
+                    f"""
+                    <div class="journeyman-card">
+                        <div class="journeyman-meta">{team_a}</div>
+                        <div class="journeyman-title">{wins}-{draws}-{losses}</div>
+                        <div>League points: {league_points}</div>
+                        <div>Categories: {strip_trailing_zero_text(cats_for)}-{strip_trailing_zero_text(cats_against)}</div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+            with summary_cols[2]:
+                st.markdown(
+                    f"""
+                    <div class="journeyman-card">
+                        <div class="journeyman-meta">Underlying edge</div>
+                        <div class="journeyman-title">{strip_trailing_zero_text(pts_for)}-{strip_trailing_zero_text(pts_against)}</div>
+                        <div>Matchup points for {team_a} in {selected_tiebreak_season}</div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
+            h2h_log = team_a_rows[
+                [
+                    "season_slug",
+                    "gameweek",
+                    "fantrax_team_name",
+                    "opponent_name",
+                    "matchup_points_for",
+                    "matchup_points_against",
+                    "category_wins_for",
+                    "category_wins_against",
+                ]
+            ].copy()
+            st.dataframe(
+                style_team_columns(pretty_df(h2h_log), ["Fantrax team", "Opponent"]),
+                width="stretch",
+                hide_index=True,
+            )
 
     sections = [
         ("Team Profile", "Teamprofiel, beste XI, roster-archief, draft/claim-kwaliteit en PL-team footprint."),
@@ -3820,7 +3945,7 @@ def render_overview(db_path: str) -> None:
                     """,
                     unsafe_allow_html=True,
                 )
-                if st.button(f"Open {page_name}", key=f"overview_nav_{page_name}", use_container_width=True):
+                if st.button(f"Open {page_name}", key=f"overview_nav_{page_name}", width="stretch"):
                     navigate_to(page_name)
 
     record_pool: list[dict[str, str]] = []
@@ -4042,7 +4167,7 @@ def render_overview(db_path: str) -> None:
                     """,
                     unsafe_allow_html=True,
                 )
-                if st.button(f"Open {card['title']}", key=f"overview_record_{start}_{card['title']}", use_container_width=True):
+                if st.button(f"Open {card['title']}", key=f"overview_record_{start}_{card['title']}", width="stretch"):
                     navigate_to_record(card["section"], card["title"], card["detail"])
 
 
